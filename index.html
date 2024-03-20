@@ -5,21 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DCSM | Home</title>
     <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="stylesheet" href="/styles/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <header>
+    <input type="checkbox" id="nav-checkbox">
+    <label for="nav-checkbox" class="hamburger-icon"><i class="fas fa-bars"></i></label>
     <nav>
-        <img src="/images/Navbar_logo_DCSM-test.png">
-        <a href="#">Home</a>
+        <img src="/images/Navbar_logo_DCSM-test.png" class="nav-logo">
+        <div class="navbar-links">
+        <a href="index.html">Home</a>
         <a href="#">About</a>
         <a href="#">Exhibitions</a>
         <a href="#">Contact</a>
+    </div>
     </nav>
 </header>
 <body>
+    <main>
     <section class="specialevents">
-        <h1>Hello World!</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure quam nihil fugit perspiciatis, molestias mollitia ullam possimus quisquam fugiat dignissimos nesciunt ipsum. Obcaecati adipisci optio dolorum ratione totam esse tempore.</p>   
+        <img src="/images/specialevents3.jpg" class="energetica-img" alt="Energetica Exhibition on Loan">
     </section>
+    
+    <section class="welcome">
+        <img src="/images/AI robot.png">
+        <div class="welcome-text">
+            Come join us at the Community Science Museum where we're committed to making science accesible to all. 
+
+            Over the course of human history, science has developed from our early understanding of fire, wind, water and
+            earth to exploring everything from galaxies far away to the very building blocks of life itself. 
+
+            The aim of our museum is to create a space where everyone can experience the wonders of our discoveries and
+            perhaps even ignite a lifelong passion to continue the exploration of the world around us. 
+        </div>
+    </section>
+
+    <section class="explore">
+        <div class="kids-container">
+            <img src="/images/forkids.jpg">
+        </div>
+        <div class="teacher-container">
+            <img src="/images/forteachers.jpg">
+        </div>
+        <div class="researcher-container">
+            <img src="/images/researchers.jpg">
+        </div>
+    </section>
+    </main>
 </body>
 
 

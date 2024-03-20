@@ -1,0 +1,17 @@
+@import url("variables.css");
+
+main {
+    overflow: hidden;
+}
+
+.specialevents {
+    display: flex;
+    justify-content: center;
+
+}
+
+.energetica-img {
+    max-width: 1440px;
+    height: auto;   
+    border-radius: 4px; 
+}

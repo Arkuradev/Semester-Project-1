@@ -13,9 +13,76 @@
 
 /* Nav Styling */
 
+/* Hamburger menu */ 
 
+nav, 
+#nav-checkbox {
+    display: none;
+}
 
+#nav-checkbox:checked ~ nav {
+    display: block;
+}
 
+header {
+    position: relative;
+    padding-left: 10px;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+nav {
+    position: absolute;
+    left: 0;
+    padding-top: 20px;
+}
+
+nav a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: var(--font-color);
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+}
+nav a:hover {
+    color: var(--main-color);
+    text-decoration: underline;
+}
+.nav-logo {
+   
+}
+
+@media (min-width: 650px){
+    nav {
+        display: block;
+        position: static;
+    }
+
+    .hamburger-icon {
+        display: none;
+    }
+    
+    nav a {
+        display: inline-block; 
+    }
+    .navbar-links {
+        display: flex;
+        justify-content: right;
+        margin-left: 200px;
+        padding-right: 320px;
+        max-width: 100%;
+        margin-top: -50px;
+    }
+}
+
+@media (max-width: 970px){
+    .navbar-links {
+        padding-right: 10px;
+    }
+}
 
 
 /* Footer Styling */
@@ -51,6 +118,7 @@ footer {
 }
 .footer-links a:hover {
     color: var(--main-color);
+    text-decoration: underline ease ;
 }
 
 .footer-logo {

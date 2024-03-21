@@ -7,11 +7,63 @@ main {
 .specialevents {
     display: flex;
     justify-content: center;
+    width: 1200px;
+    margin: 0 auto;
 
 }
 
 .energetica-img {
-    max-width: 1440px;
+    max-width: 1200px;
     height: auto;   
     border-radius: 4px; 
+    margin-bottom: 59px;
+}
+
+/* Welcome section & image of AI Robot */
+
+.welcome-container {
+    max-width: 1200px;
+    height: 250px;
+    margin-top: 59px;
+    margin-bottom: 59px;
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 4px;
+}
+.ai-robot {
+    margin-left: 30px;
+    width: 207px;
+    height: 207px;
+    z-index: 1;
+    background-color: var(--main-color);
+    justify-content: center;
+}
+.welcome-text {
+    font-size: 16px;
+    color: var(--font-color);
+    padding-left: 55px;
+    background-color: var(--main-color);
+    justify-content: center;
+}
+
+/* For Kids, Teachers and Researcher section */
+
+.explore {
+    display: flex;
+    justify-content: center;
+}
+
+.kids-img, .teacher-img, .researcher-img {
+    width: 376px;
+    height: 270px;
+    margin-top: 57px;
+    border-radius: 4px;
+
+}
+.teacher-img {
+    margin-left: 36px;
+    margin-right: 36px;
 }

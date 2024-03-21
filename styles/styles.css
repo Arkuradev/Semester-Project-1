@@ -10,6 +10,17 @@
     padding: 0;
 }
 
+/* Color container 1 */
+
+.color-container-1 {
+    width: 1200px;
+    height: 50px;
+    background-color: var(--main-color);
+    border-radius: 4px;
+    margin: 0 auto;
+}
+
+
 
 /* Nav Styling */
 
@@ -40,7 +51,7 @@ nav {
 
 nav a {
     display: block;
-    padding: 10px 20px;
+    padding: 10px 20px ;
     text-decoration: none;
     color: var(--font-color);
     font-weight: 500;

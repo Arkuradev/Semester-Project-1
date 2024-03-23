@@ -8,6 +8,7 @@
     background-color: var(--bg-color);
     margin: 0;
     padding: 0;
+    
 }
 
 /* Color container 1 */
@@ -59,20 +60,25 @@ nav a {
     text-align: center;
 }
 nav a:hover {
-    color: var(--main-color);
-    text-decoration: underline;
+    background-color: var(--main-color);
+    color: #EEEEEE;
 }
 
 /* COME BACK HERE AND FIX NAV */
 
-.nav-logo {
-   margin-left: 5px;
+
+.navbar-links {
+    padding-top: 15px;
+}
+.navbar-links a {
+    margin-top: 30px;
 }
 
 @media (min-width: 650px){
     nav {
         display: block;
         position: static;
+        
     }
 
     .hamburger-icon {
@@ -84,19 +90,16 @@ nav a:hover {
     }
     .navbar-links {
         display: flex;
-        justify-content: right;
-        margin-left: 200px;
-        padding-right: 320px;
-        max-width: 100%;
+        justify-content: space-around;
         margin-top: -50px;
+    }
+    .navbar-links a {
+        width: 300px;
+        border-radius: 4px;
+        height: auto;
     }
 }
 
-@media (max-width: 970px){
-    .navbar-links {
-        padding-right: 10px;
-    }
-}
 
 
 /* Footer Styling */

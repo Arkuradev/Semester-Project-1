@@ -1,8 +1,6 @@
 @import url("variables.css");
 
-main {
-    overflow: hidden;
-}
+
 
 .specialevents {
     display: flex;
@@ -48,6 +46,11 @@ main {
     background-color: var(--main-color);
     justify-content: center;
 }
+.robot-text {
+    background-color: var(--main-color);
+    line-height: 2rem;
+    width: 870px;
+}
 
 /* For Kids, Teachers and Researcher section */
 
@@ -61,9 +64,82 @@ main {
     height: 270px;
     margin-top: 57px;
     border-radius: 4px;
-
+    border: 1px solid var(--font-color);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 57px;
 }
 .teacher-img {
     margin-left: 36px;
     margin-right: 36px;
 }
+
+/* Museum Info Section */
+
+.museum-misc-info, .museum-info {
+    display: flex;
+    width: 1200px;
+    height: 250px;
+    margin: 0 auto;
+    justify-content: space-evenly;
+} 
+
+.food-drink-container, .shop-container, .accessibility-container {
+    width: 300px;
+    height: 250px;
+    text-align: center;
+    padding-top: 37px;
+    
+}
+.food-drink-container p, .shop-container p, .accessibility-container p {
+    padding-top: 30px;
+    line-height: 1.5rem;
+
+}
+.food-drink-container {
+    border-right: inset var(--main-color);
+    padding-right: 25px;
+    width: 350px;
+}
+
+/* Museum Opening Hours & Admission section */
+
+.opening-container {
+    width: 410px;
+    text-align: center;  
+    margin-bottom: 30px; 
+}
+.opening-container h4, .admission-container h4 {
+    margin-bottom: 30px;
+}
+.opening-container li {
+    list-style-type: none;
+    margin-top: 10px;
+}
+.admission-container {
+    width: 700px;
+    text-align: center;
+    line-height: 1.5rem;
+
+}
+
+
+
+
+
+/* Picture of a section inside the museum */
+
+.museumimg-container {
+    display: flex;
+    justify-content: center;
+}
+
+.insidemuseum-img {
+    margin-top: 34px;
+    width: 1200px;
+    height: auto;
+    border: 1px solid var(--font-color);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+

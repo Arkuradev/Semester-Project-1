@@ -62,8 +62,11 @@ nav a:hover {
     color: var(--main-color);
     text-decoration: underline;
 }
+
+/* COME BACK HERE AND FIX NAV */
+
 .nav-logo {
-   
+   margin-left: 5px;
 }
 
 @media (min-width: 650px){

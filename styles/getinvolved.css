@@ -1,0 +1,48 @@
+@import url("variables.css");
+
+h1 {
+    margin: 80px 0 40px 300px;
+}
+
+.getinvolved-img {
+    width: 500px;
+    height: auto;
+    position: absolute;
+    right: 450px;
+    top: 220px;
+    border-radius: 4px;
+}
+
+/* Colored containers on page.  */
+
+.color-container-2 {
+    width: 600px;
+    height: 50px;
+    background-color: var(--main-color);
+    border-radius: 4px;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+.color-container-getinvolved {
+    width: 1200px;
+    height: 50px;
+    background-color: var(--main-color);
+    border-radius: 4px;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+
+
+
+.support-container, .volunteer-container, .internships-container {
+    display: flex;
+    margin-left: 300px;
+}
+.support, .volunteer, .internships {
+    width: 550px;
+    height: auto;
+}
+.support h3, .volunteer h3, .internships h3 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}

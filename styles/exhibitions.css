@@ -1,0 +1,71 @@
+@import url("variables.css");
+
+
+.top-container {
+    margin-top: 100px;
+    display: flex;
+    position: relative;
+}
+.top-container h1 {
+    position: absolute;
+    bottom: 0;
+    left: 353px;
+}
+
+/* Image styling */
+.astronaut-img {
+    width: 260px;
+    height: 260px;
+    transform: rotate(15deg);
+    position: relative;
+    left: 1000px;  
+}
+
+.cosmos-img, .evolution-img {
+    width: 500px;
+    height: 300px;
+    border-radius: 4px;
+    
+}
+.image-container {
+    background-color: var(--main-color);
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin-left: 200px;
+}
+
+
+/* Exhibition container styling */
+
+
+.exhibitions-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cosmology-container, .evolution-container {
+    display: flex;
+    width: 1200px;
+    height: 350px;
+    margin-bottom: 100px;
+    background-color: var(--main-color);
+    
+    z-index: 1;
+}
+.cosmology-text {
+    width: 450px;
+    height: 350px;
+    background-color: var(--main-color);
+}
+.cosmology-text p {
+    background-color: var(--main-color);
+    line-height: 1.5rem;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+.cosmology-text h4 {
+    background-color: var(--main-color);
+    margin-top: 30px;
+    margin-left: 60px;
+}

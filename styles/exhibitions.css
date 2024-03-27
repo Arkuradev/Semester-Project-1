@@ -1,6 +1,7 @@
 @import url("variables.css");
 
 
+
 .top-container {
     margin-top: 100px;
     display: flex;
@@ -21,7 +22,7 @@
     left: 1000px;  
 }
 
-.cosmos-img, .evolution-img {
+.exhibitions-img {
     width: 500px;
     height: 300px;
     border-radius: 4px;
@@ -32,7 +33,7 @@
     display: flex;
     position: relative;
     align-items: center;
-    margin-left: 200px;
+    margin-left: 130px;
 }
 
 
@@ -43,28 +44,29 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
-.cosmology-container, .evolution-container {
+.cosmology-container, .evolution-container, .biology-container, .robotics-container, .ecology-container {
     display: flex;
     width: 1200px;
     height: 350px;
     margin-bottom: 100px;
     background-color: var(--main-color);
-    
+    border-radius: 4px;
     z-index: 1;
 }
-.cosmology-text {
-    width: 450px;
+.exhibition-text {
+    width: 550px;
     height: 350px;
     background-color: var(--main-color);
 }
-.cosmology-text p {
+.exhibition-text p {
     background-color: var(--main-color);
     line-height: 1.5rem;
     margin-top: 30px;
     margin-left: 60px;
 }
-.cosmology-text h4 {
+.exhibition-text h4 {
     background-color: var(--main-color);
     margin-top: 30px;
     margin-left: 60px;

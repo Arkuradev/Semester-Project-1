@@ -150,7 +150,6 @@ footer {
 
 .footer-container {
     display: flex;
-    
     height: 338px;
     background-color: var(--footer-color);
 }
@@ -180,6 +179,7 @@ footer {
     width: 200px;
     height: 70px;
     margin: 0 auto;
+    margin-top: 200px;
     text-align: center;
 }
 .footerlogo-img {
@@ -212,18 +212,26 @@ footer {
     background-color: var(--footer-color);
     color: #fff;
 }
-
-
-@media (max-width: 650px) {
+ @media (max-width: 690px) {
     .footer-container {
-       flex-wrap: wrap;
-       overflow-x: hidden;
-       justify-content: center;
+        flex-direction: column;
+        height: 800px;
+    }
+    .footer-links {
+        text-align: center;
+        padding-top: 50px;
+        justify-content: center;
+        margin: 0 auto;
     }
     .footer-visit {
-        margin-top: 35px;
-        margin-bottom: 50px;
         text-align: center;
-        
+        float: none;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: 20px;
     }
-}
+    .footer-logo {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+ }

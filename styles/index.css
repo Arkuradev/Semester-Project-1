@@ -2,15 +2,17 @@
 
 
 
-.specialevents {
-    display: flex;
-    justify-content: center;
-    width: 1200px;
-    margin: 0 auto;
-
+.hero-image {
+    background-image: url("specialevents3.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 .energetica-img {
+    
     max-width: 1200px;
     height: auto;   
     border-radius: 4px; 

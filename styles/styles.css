@@ -5,12 +5,15 @@
 * {
     box-sizing: border-box;
     font-family: Inter, sans-serif;
-    background-color: var(--bg-color);
     margin: 0;
     padding: 0;    
 }
+html, nav, header {
+    background-color: var(--bg-color);
+}
 main {
     overflow: hidden;
+    padding-top: 200px;
 }
 
 

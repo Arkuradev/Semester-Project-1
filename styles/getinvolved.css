@@ -83,6 +83,7 @@ h1 {
     .support-container, .volunteer-container, .internships-container {
         justify-content: center;
         align-items: center;
+        margin-right: 0px;
     }
     .support, .volunteer, .internships {
         width: 400px;
@@ -90,7 +91,6 @@ h1 {
     .color-container-2 {
         width: 400px;
     }
-    .image-container {
-        margin-left: -30px;
-    }
+    
+    
 }

@@ -2,6 +2,7 @@
 
 h1 {
     text-align: center;
+    font-size: 50px;
 }
 
 .getinvolved-img {
@@ -80,17 +81,41 @@ h1 {
 }
 
 @media (max-width: 650px) {
+    h1 {
+        font-size: 40px;
+    }
     .support-container, .volunteer-container, .internships-container {
         justify-content: center;
         align-items: center;
-        margin-right: 0px;
+        margin-right: 0px; 
     }
     .support, .volunteer, .internships {
         width: 400px;
     }
     .color-container-2 {
         width: 400px;
+        height: 20px;
     }
-    
-    
+}
+
+@media (max-width: 400px) {
+    h1 {
+        font-size: 30px;
+    }
+    p {
+        font-size: 12px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+    .support, .volunteer, .internships {
+        width: 350px;
+    }
+    .color-container-2 {
+        width: 350px;
+    }
+    .getinvolved-img {
+        width: 350px;
+        height: auto;
+    }
 }

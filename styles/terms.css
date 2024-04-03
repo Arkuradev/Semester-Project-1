@@ -1,2 +1,47 @@
 @import url("variables.css");
 
+h1 {
+    margin-top: 50px;
+}
+h2 {
+    font-size: 30px;
+}
+h1, .terms-container h2 {
+    margin-left: 10px;
+}
+.terms-container p, .terms-container li {
+    margin-left: 15px;
+    font-size: 16px;
+    padding: 10px;
+}
+li {
+    list-style:disc;
+    
+}
+ul {
+    margin-left: 25px;
+}
+.updated {
+    margin-bottom: 50px;
+    margin-left: 25px;
+}
+.b-text {
+    font-weight: bold;
+}
+
+.terms-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    width: 1200px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+a:hover {
+    color: var(--main-color);
+    text-decoration: underline;
+}

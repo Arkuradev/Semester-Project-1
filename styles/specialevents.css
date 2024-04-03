@@ -5,7 +5,7 @@ h1 {
     margin-bottom: 50px;
 }
 
-.aeronautics-img {
+.aeronautics-img, .energetica-img {
     width: 500px;
     height: 335px;
     border-radius: 4px;
@@ -22,7 +22,7 @@ h1 {
     flex-direction: column;
     align-items: center;
 }
-.aeronautics-container, .nightmuseum-container {
+.aeronautics-container, .nightmuseum-container, .energetica-container {
     display: flex;
     width: 1200px;
     height: 400px;
@@ -30,6 +30,7 @@ h1 {
     align-items: center;
     padding: 40px;
     margin-bottom: 40px;
+    border-radius: 4px;
     
 }
 .text-container {

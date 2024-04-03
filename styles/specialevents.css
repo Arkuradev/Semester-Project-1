@@ -1,0 +1,41 @@
+@import url("variables.css");
+
+
+h1 {
+    margin-bottom: 50px;
+}
+
+.aeronautics-img {
+    width: 500px;
+    height: 335px;
+    border-radius: 4px;
+}
+.nightmuseum-img {
+    width: 340px;
+    height: 360px;
+    border-radius: 4px;
+}
+
+
+.specialevents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.aeronautics-container, .nightmuseum-container {
+    display: flex;
+    width: 1200px;
+    height: 400px;
+    background-color: var(--main-color);
+    align-items: center;
+    padding: 40px;
+    margin-bottom: 40px;
+    
+}
+.text-container {
+    background-color: var(--main-color);
+    padding: 40px;
+}
+.text-container h4 {
+    margin-bottom: 25px;
+}

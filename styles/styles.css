@@ -16,7 +16,12 @@ main {
     padding-top: 100px;
 }
 
+/* Global Image styling */
 
+.getinvolved-img {
+    border: 1px solid var(--font-color);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 /* Color container 1 */
 

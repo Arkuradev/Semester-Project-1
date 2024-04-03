@@ -1,1 +1,63 @@
 @import url("variables.css");
+h1 {
+    margin-bottom: 50px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.kid-img {
+    width: 1200px;
+    height: auto;
+    border-radius: 4px;
+}
+.teacher-img {
+    width: 415px;
+    height: auto;
+}
+.research-img {
+    width: 1200px;
+    height: auto;
+}
+
+.explore {
+    display: flex;
+    flex-direction: column;
+}
+.text-container {
+    width: 1200px;
+    margin-bottom: 10px;
+}
+.text-container h4 {
+    margin-bottom: 40px;
+}
+.text-container p {
+    padding-bottom: 15px;
+}
+
+.kids-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.teacher-container {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.researcher-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.color-container-1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}

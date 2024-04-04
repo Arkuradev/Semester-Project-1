@@ -1,1 +1,88 @@
 @import url("variables.css");
+
+h1 {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.formbox-container {
+    display: flex;
+    justify-content: center;
+}
+
+.formbox, .img-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 500px;
+    height: 500px;
+    background-color: var(--main-color);
+}
+
+.formbox {
+    padding-top: 20px;
+    border-radius: 4px 0 0 4px;
+}
+
+.img-container {
+    border-radius: 0 4px 4px 0;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 20px;
+    margin-left: 50px;
+    border: none;
+    width: 450px;
+    
+}
+input, select {
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+.name, .email {
+    border: none;
+}
+
+.form__input {
+    display: block;
+}
+
+.message {
+    height: 180px;
+    padding: 5px;
+    border-radius: 4px;
+}
+.send-btn {
+    margin-top: 5px;
+    height: 35px;
+    font-size: 20px;
+    color: #eeeeee;
+    border-radius: 4px;
+    background-color: var(--font-color);
+}
+
+
+.contact-img {
+    border-radius: 4px;
+    margin-top: 63px;
+    margin-left: 30px;
+    width: 400px;
+    height: auto;
+}
+
+.google-map {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+iframe {
+    width: 1000px;
+    border: 1px solid var(--font-color);
+    margin-bottom: 30px;
+}

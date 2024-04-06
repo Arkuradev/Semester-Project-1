@@ -61,7 +61,10 @@ header {
 nav {
     position: absolute;
     left: 0;
+    border-radius: 0 0 4px 4px;
+    margin-top: 20px;
     padding-top: 20px;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 0 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 nav a {
@@ -88,11 +91,12 @@ nav a:hover {
 
 /* Nav & Footer Mobile */
 
+
 @media (min-width: 650px){
     nav {
         display: block;
         position: static;
-        
+        box-shadow: none;
     }
     .hamburger-icon {
         display: none;
@@ -112,6 +116,7 @@ nav a:hover {
         height: auto;
     }
 }
+
 
 
 /* Tree, flower and bee styling. */

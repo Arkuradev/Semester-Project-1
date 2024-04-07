@@ -93,9 +93,8 @@
     align-items: center;
     text-align: center;
     display: none;
-    color: #eee;
-    font-size: 40px;
-    -webkit-text-stroke: 1px #000;
+    color: var(--main-color);
+    font-size: 35px;
 }
 .explore-text h2 {
     padding-top: 105px;

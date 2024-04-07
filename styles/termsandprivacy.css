@@ -43,7 +43,7 @@ a {
     color: black;
 
 }
-a:hover {
+.termsprivacy-link:hover {
     color: var(--main-color);
     text-decoration: underline;
 }

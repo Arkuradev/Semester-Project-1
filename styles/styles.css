@@ -18,7 +18,8 @@ main {
 
 /* Global Image styling */
 
-.getinvolved-img, .contact-img {
+#global-img {
+    border-radius: 4px;
     border: 1px solid var(--font-color);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -51,7 +52,7 @@ header {
     position: fixed;
     z-index: 2;
     width: 100%;
-    padding: 20px 10px;
+    
     font-size: 1.5rem;
     margin-bottom: 10px;
     display: block;
@@ -62,14 +63,14 @@ nav {
     position: absolute;
     left: 0;
     border-radius: 0 0 4px 4px;
-    margin-top: 20px;
-    padding-top: 20px;
+    margin-top: 10px;
+    padding-top: 10px;
     box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 0 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 nav a {
     display: block;
-    padding: 10px 20px;
+    padding: 10px 10px;
     text-decoration: none;
     color: var(--font-color);
     font-weight: 500;
@@ -77,22 +78,20 @@ nav a {
     text-align: center;
 }
 nav a:hover {
-    background-color: var(--main-color);
-    color: #EEEEEE;
+    color: var(--main-color);
 }
 
-
-.navbar-links {
+.nav-logo {
     padding-top: 15px;
 }
-.navbar-links a {
-    margin-top: 30px;
+.navbar-a {
+    
+    padding-bottom: 5px;
 }
 
-/* Nav & Footer Mobile */
-
-
+/* NAVBAR RESPONSIVE */
 @media (min-width: 650px){
+    
     nav {
         display: block;
         position: static;
@@ -104,6 +103,7 @@ nav a:hover {
     
     nav a {
         display: inline-block; 
+        padding: 0 10px;
     }
     .navbar-links {
         display: flex;
@@ -111,12 +111,35 @@ nav a:hover {
         margin-top: -50px;
     }
     .navbar-links a {
-        width: 300px;
         border-radius: 4px;
-        height: auto;
+    }
+    .navbar-a {
+        display: flex;
+        width: 500px;
+        align-items: end;
+    }
+    .nav-logo {
+        margin-left: 100px;
     }
 }
 
+/* Move logo to make room for links before mobile view */
+@media (max-width: 750px) {
+    .nav-logo { 
+        margin-left: 0px;
+    }
+}
+
+/* Increase padding on hamburger menu to make it visually better and easier to click. */
+@media (max-width: 650px) {
+    header {
+        padding: 5px;
+    }
+    /* better position of menu im hamburger menu to look better on screen */
+    nav {
+        margin-top: 6px;
+    }
+}
 
 
 /* Tree, flower and bee styling. */

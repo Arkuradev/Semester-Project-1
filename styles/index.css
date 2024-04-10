@@ -19,61 +19,77 @@
 
 /* Welcome section & image of AI Robot */
 
-.welcome-container {
-    max-width: 1200px;
-    height: 250px;
-    margin-top: 59px;
-    margin-bottom: 59px;
-    background-color: var(--main-color);
+.welcome-section {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
-    border-radius: 4px;
-    margin-bottom: 57px;
+   
 }
+.welcome-container {
+    display: flex;
+    width: 1200px;
+    align-items: center;
+    background-color: var(--main-color);
+    padding: 30px;
+}
+.welcome-text {
+    padding: 20px;
+    background-color: var(--main-color);
+}
+
 .ai-robot {
-    margin-left: 30px;
+    padding-left: 30px;
     width: 207px;
-    height: 207px;
+    height: auto;
     z-index: 1;
     background-color: var(--main-color);
     justify-content: center;
 }
-.welcome-text {
-    font-size: 16px;
-    color: var(--font-color);
-    padding-left: 55px;
-    background-color: var(--main-color);
-    justify-content: center;
-    
+
+/* Making welcome section responsive and look good on different screens */
+
+@media (max-width: 650px) {
+    .welcome-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        line-height: 1.5rem;
+    }
+    .ai-robot {
+        padding-left: 0;
+    }
 }
-.robot-text {
-    background-color: var(--main-color);
-    line-height: 2rem;
-    width: 870px;
+@media (max-width: 500px) {
+    .welcome-container p {
+        font-size: 12px;
+    }
+    .ai-robot {
+        width: 170px;
+        height: auto;
+    }
 }
 
 /* For Kids, Teachers and Researcher section */
 
 .explore {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     
 }
 .explore-container {
     position: relative;
     margin: 18px;
-    width: 376px;
-    height: 270px;
+    width: 352px;
+    height: auto;
     border-radius: 4px;
     border: 1px solid var(--font-color);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
 }
 .kids-container, .teacher-container, .researcher-container {
-    width: 100%;
-    height: 100%;
+    width: 350px;
+    height: 250px;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -105,7 +121,6 @@
 .kids-container:hover >.explore-text, .teacher-container:hover > .explore-text, .researcher-container:hover > .explore-text {
     display: block;
 }
-
 .click-img {
     height: 100%;
     width: 100%;
@@ -115,69 +130,104 @@
     z-index: 1;
 }
 
+/* Explore section responsive and look good on different screens */
+
+@media (max-width: 1200px) {
+    .kids-container, .teacher-container, .researcher-container {
+        width: 300px;
+        background-position: 50%;
+    }
+    .explore-container {
+        width: 302px;
+    }
+    .explore-text {
+        font-size: 25px;
+    }
+}
+@media (max-width: 1000px) {
+    .explore { 
+        flex-wrap: wrap;
+    }
+}
+
+
+
+
+
 
 /* Museum Info Section */
 
-.index-color-container {
-    margin-top: 57px;
-}
 
-.museum-misc-info, .museum-info {
+.museum-misc-info, .museum-info-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.misc-info-container, .museum-info-container {
     display: flex;
     width: 1200px;
-    height: 250px;
-    margin: 0 auto;
-    justify-content: space-evenly;
-} 
-
-.food-drink-container, .shop-container, .accessibility-container {
-    width: 300px;
-    height: 250px;
-    text-align: center;
-    padding-top: 37px;
-    
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .food-drink-container p, .shop-container p, .accessibility-container p {
-    padding-top: 30px;
+    width: 400px;
+    height: 200px;
     line-height: 1.5rem;
-
+    padding: 30px;
 }
-
-/* Check this for later - When making things responsive. 
-.food-drink-container {
-    border-right: inset var(--main-color);
-    padding-right: 25px;
-    width: 350px;
+.food-drink-container h4, .shop-container h4, .accessibility-container h4 {
+    margin-top: 20px;
+    padding-left: 30px;
 }
-*/
-
-/* Museum Opening Hours & Admission section */
 
 .opening-container {
-    
-    width: 410px;
-    text-align: center;  
-    margin-bottom: 30px; 
+    width: 400px;
+    height: auto;
+    padding: 30px;
+    line-height: 1.5rem;
+    text-align: center;
 }
 .opening-container h4, .admission-container h4 {
-    margin-bottom: 30px;
-}
-.opening-container, .admission-container {
-    margin-bottom: 50px;
-    margin-top: 30px;
+    margin-bottom: 20px;
 }
 .opening-container li {
     list-style-type: none;
-    margin-top: 10px;
 }
 .admission-container {
-    width: 700px;
-    text-align: center;
-    line-height: 1.5rem;
+    padding: 30px;
+    width: 600px;
+    height: auto;
 }
-#openinghour-linebreak {
-    margin-top: 30px;
+
+@media (max-width: 650px) {
+    .opening-container, .admission-container {
+        width: 400px;
+        height: auto;
+    }
 }
+
+@media (max-width: 500px) {
+    .misc-info-container p, .museum-info-container p, .museum-info-container li {
+        font-size: 12px;
+    }
+    .admission-container p {
+        line-height: 1.5rem;
+    }
+    
+}
+@media (max-width: 418px) {
+    .food-drink-container p, .shop-container p, .accessibility-container p, .opening-container, .admission-container {
+        width: auto;
+        height: auto;
+    }
+    h4 {
+        text-align: center;
+    }
+}
+
+
+
 
 
 
@@ -195,6 +245,39 @@
     height: auto;
     border: 1px solid var(--font-color);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Image responsive at different resolutions. Lowest resolution until image is no longer shown is 340px */
+
+@media (max-width: 1212px) {
+    .insidemuseum-img {
+        width: 1000px
+    }
+}
+@media (max-width: 1020px) {
+    .insidemuseum-img {
+        width: 800px;
+    }
+}
+@media (max-width: 820px) {
+    .insidemuseum-img {
+        width: 600px;
+    }
+}
+@media (max-width: 620px) {
+    .insidemuseum-img {
+        width: 400px;
+    }
+}
+@media (max-width: 420px) {
+    .insidemuseum-img {
+        width: 340px;
+    }
+}
+@media (max-width: 340px) {
+    .insidemuseum-img {
+        display: none;
+    }
 }
 
 

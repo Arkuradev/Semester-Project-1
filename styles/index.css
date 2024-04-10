@@ -37,6 +37,12 @@
     padding: 20px;
     background-color: var(--main-color);
 }
+.explore-p {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    
+}
 
 .ai-robot {
     padding-left: 30px;
@@ -94,6 +100,10 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.explore-container {
+    margin-left: 35px;
+    margin-right: 35px; 
+}
 
 .kids-container {
     background-image: url("../images/forkids.jpg");
@@ -128,21 +138,19 @@
     left: 0;
     top: 0;
     position: absolute;
-    z-index: 1;
+    
 }
 
 /* Explore section responsive and look good on different screens */
 
-@media (max-width: 1200px) {
+@media (max-width: 378px) {
     .kids-container, .teacher-container, .researcher-container {
-        width: 300px;
-        background-position: 50%;
-    }
-    .explore-container {
-        width: 302px;
+       width: 300px; 
+       background-position: 50%;
     }
     .explore-text {
         font-size: 25px;
+        display: block;
     }
 }
 @media (max-width: 1000px) {
@@ -234,6 +242,7 @@
     .food-drink-container p, .shop-container p, .accessibility-container p, .opening-container, .admission-container {
         width: auto;
         height: auto;
+        text-align: center;
     }
     h4 {
         text-align: center;

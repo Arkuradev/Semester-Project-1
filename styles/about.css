@@ -9,8 +9,9 @@ h1 {
 
 /* About us section & image */
 
-.aboutus-container {
+.aboutus-container, .visitus-container {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     margin-top: 50px;
@@ -18,32 +19,94 @@ h1 {
 .text-container {
     display: flex;
     margin: 30px;
-    width: 600px;
-    height: 600px;
+    width: 650px;
+    height: auto;
     background-color: var(--main-color);
     flex-direction: column;
     border-radius: 4px;
+    overflow: hidden;
 }
 
 .aboutus-container p {
     background-color: var(--main-color);
     line-height: 1.5rem;
+    font-size: 16px;
     padding: 30px;
-}
-
-.museumlibrary-img {
-    border-radius: 4px;
-    width: 517px;
-    height: 345px;
 }
 
 /* Visit us section */
 
 .visitus-container {
-    margin-top: 200px;
+    background-color: var(--main-color);
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 25px;
 }
 
-.visitus-info p, h4 {
+h2 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.visitus-info {
+    padding: 20px;
     width: 1200px;
-    background-color: var(--main-color);
+    height: auto;
+}
+.visitus-text {
+    font-size: 16px;
+    line-height: 1.5rem;
+}
+.visitus-text h4 {
+    margin-top: 15px;
+    margin-bottom: 3px;
+}
+
+
+
+@media (max-width: 1230px) {
+    .text-container {
+        width: 500px;
+    }
+    .aboutus-teacher-img {
+        width: 500px;
+        height: auto;
+    }
+    .visitus-info {
+        width: 630px;
+        
+    }
+}
+
+@media (max-width: 650px) {
+    .text-container p, .visitus-text p {
+        font-size: 14px;
+    }
+    .visitus-info {
+        width: 500px;
+    }
+    h1, h2 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 550px) {
+    .text-container p, .visitus-text p {
+        font-size: 12px;
+    }
+    .aboutus-teacher-img {
+        width: 300px;
+        height: auto;
+    }
+    .visitus-info {
+        width: 300px;
+    }
+    .visitus-text h4 {
+        padding-top: 25px;
+        text-align: center;
+    }
+    h1, h2 {
+        font-size: 25px;
+    }
 }

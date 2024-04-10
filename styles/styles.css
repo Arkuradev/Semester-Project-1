@@ -230,10 +230,11 @@ footer {
 
 .footer-visit {
     background-color: var(--footer-color);
-    width: 247px;
+    width: 267px;
     height: auto;
     float: right;
     margin-top: 35px;
+    padding-right: 15px;
     line-height: 2rem;
 }
 .footer-visit h2 {

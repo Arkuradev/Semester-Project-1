@@ -31,6 +31,7 @@
     align-items: center;
     background-color: var(--main-color);
     padding: 30px;
+    border-radius: 4px;
 }
 .welcome-text {
     padding: 20px;
@@ -174,7 +175,7 @@
     width: 400px;
     height: 200px;
     line-height: 1.5rem;
-    padding: 30px;
+    padding: 15px 30px;
 }
 .food-drink-container h4, .shop-container h4, .accessibility-container h4 {
     margin-top: 20px;
@@ -198,6 +199,19 @@
     padding: 30px;
     width: 600px;
     height: auto;
+}
+
+/* Making museum info and misc info responsive */ 
+
+
+@media (max-width: 817px) {
+    .food-drink-container {
+        margin-top: 20px;
+        height: 150px;
+    }
+    .shop-container {
+        margin-top: 10px;
+    }
 }
 
 @media (max-width: 650px) {
@@ -243,8 +257,6 @@
     margin-bottom: 70px;
     width: 1200px;
     height: auto;
-    border: 1px solid var(--font-color);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* Image responsive at different resolutions. Lowest resolution until image is no longer shown is 340px */

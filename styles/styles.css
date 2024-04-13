@@ -13,7 +13,7 @@ html, nav, header {
 }
 main {
     overflow: hidden;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 h1 {
@@ -80,7 +80,7 @@ nav,
 
 header {
     position: fixed;
-    z-index: 2;
+    z-index: 4;
     width: 100%;
     
     font-size: 1.5rem;
@@ -149,7 +149,7 @@ nav a:hover {
         align-items: end;
     }
     .nav-logo {
-        margin-left: 100px;
+        margin-left: 5px;
     }
 }
 

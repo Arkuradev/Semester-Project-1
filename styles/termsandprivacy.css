@@ -20,8 +20,7 @@ h1, .text-container h2 {
     
 }
 li {
-    list-style:disc;
-    
+    list-style:disc;  
 }
 ul {
     margin-left: 25px;
@@ -52,11 +51,15 @@ a {
     text-decoration: underline;
 }
 
+
+/* Set max-width of text containers to 1200px and compresses the containers as the resolution gets smaller */
 @media (min-width: 1000px) {
     .text-container {
         max-width: 1200px;
     }
 }
+
+/* Changes font sizes to fit screen size */
 
 @media (max-width: 650px) {
     h1 {
@@ -70,6 +73,8 @@ a {
     }
     
 }
+
+/* Changes font sizes to fit the smallest screen sizes */
 
 @media (max-width: 400px) {
     h1 {

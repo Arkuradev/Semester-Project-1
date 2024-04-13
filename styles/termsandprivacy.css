@@ -4,17 +4,20 @@
 
 h1 {
     margin-top: 50px;
+    
 }
 h2 {
     font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 5px;
 }
 h1, .text-container h2 {
     margin-left: 10px;
 }
 .text-container p, .text-container li {
-    margin-left: 15px;
+    margin-left: 10px;
     font-size: 16px;
-    padding: 10px;
+    
 }
 li {
     list-style:disc;
@@ -24,8 +27,9 @@ ul {
     margin-left: 25px;
 }
 .updated {
+    text-align: center;
+    font-size: 12px;
     margin-bottom: 50px;
-    margin-left: 25px;
 }
 .b-text {
     font-weight: bold;
@@ -35,7 +39,7 @@ ul {
     display: flex;
     flex-direction: column;
     margin-bottom: 40px;
-    width: 1200px;
+    
 }
 
 a {
@@ -46,4 +50,35 @@ a {
 .termsprivacy-link:hover {
     color: var(--main-color);
     text-decoration: underline;
+}
+
+@media (min-width: 1000px) {
+    .text-container {
+        max-width: 1200px;
+    }
+}
+
+@media (max-width: 650px) {
+    h1 {
+        font-size: 40px;
+    }
+    .text-container h2 {
+        font-size: 25px;
+    }
+    .text-container p, .text-container li {
+        font-size: 14px;
+    }
+    
+}
+
+@media (max-width: 400px) {
+    h1 {
+        font-size: 30px;
+    }
+    .text-container h2 {
+        font-size: 20px;
+    }
+    .text-container p, .text-container li {
+        font-size: 12px;
+    }
 }

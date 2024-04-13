@@ -4,20 +4,42 @@
 
 
 
-h1 {
-    
+/* Carousel links styling  */
+.carousel-links {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    color: #eee;
     font-size: 50px;
-    text-align: center;
-    margin: 0;
-
+    text-decoration: none;
 }
-.carouselh1 {
+.carousel-links:hover {
+    color: var(--main-color);
+}
+
+/* Background for links in carousel to make them more visually pleasing to the eye. */
+.textbg {
+    background-color: black;
+    width: 600px;
+    height: 60px;
+    opacity: 0.8;
     position: absolute;
     bottom: 0;
     right: 0;
-    color: var(--main-color);
-    border: black;
+    border-radius: 70px 0 0 0;
 }
+.textbg2 {
+    background-color: black;
+    width: 650px;
+    height: 60px;
+    opacity: 0.8;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 70px 0 0 0;
+}
+/* Carousel wrapper - Size of the carousel on max resolution. Scaling it down as resolution gets lower */
+
 .carousel-wrapper {
     height: 600px;
     position: relative;
@@ -29,6 +51,7 @@ h1 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+/* Positioning of the different images in the carousel with some transition */ 
 .carousel-item {
     position: absolute;
     top: 0;
@@ -40,12 +63,15 @@ h1 {
     transition: all 0.5s ease-in-out;
 }
 
+/* Styling of the Prev Arrow and Next Arrow. */
+
 .arrow {
-    border: solid var(--main-color);
-    border-width: 0 4px 4px 0;
+    border: solid #eee;
+    border-width: 0 5px 5px 0;
     display: inline-block;
     padding: 12px;
 }
+
 .arrow-prev {
     left: 30px;
     position: absolute;
@@ -53,17 +79,41 @@ h1 {
     transform: translateY(-50%) rotate(135deg);
 
 }
+.arrow-container-prev {
+    background-color: var(--main-color);
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    opacity: 0.8;
+    position: absolute;
+    top: 45%; 
+    left: 30px;
+    z-index: 3;
+}
+.arrow-container-next {
+    background-color: var(--main-color);
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    opacity: 0.8;
+    position: absolute;
+    top: 45%;
+    right: 30px;
+    
+}
+
 .arrow-next {
     right: 30px;
     position: absolute;
     top: 50%;
     transform: translateY(-50%) rotate(-45deg);
-
 }
 
 [id^= "item"] {
     display: none;
 }
+
+/* Carousel items */
 
 .item-1 {
     z-index: 2;
@@ -94,7 +144,7 @@ h1 {
     opacity: 1;
 }
 
-
+/* Carousel resizing according to the screen size */ 
 @media (max-width: 1202px) {
     .carousel-wrapper {
         transition: width 1s;
@@ -115,9 +165,25 @@ h1 {
         transition: width 1s;
         width: 640px;
     }
-    .carouselh1 {
+    .carousel-links {
         font-size: 30px;
     }
+    .textbg {
+        width: 400px;
+        height: 50px;
+    }
+    .textbg2 {
+        width: 410px;
+        height: 50px;
+    }
+    .arrow {
+        padding: 8px;
+    }
+    .arrow-container-prev, .arrow-container-next {
+        width: 70px;
+        height: 70px;
+    }
+
 }
 
 @media (max-width: 641px) {
@@ -127,8 +193,32 @@ h1 {
         transition: height 1s;
         height: 350px;
     }
-    .carouselh1 {
+    .carousel-links {
         font-size: 25px;
+    }
+    
+    .textbg, .textbg2 {
+        width: 350px;
+        height: 40px;
+    }
+    .arrow {
+        padding: 8px;
+    }
+    .arrow-prev {
+        left: 18px;
+    }
+    .arrow-next {
+        right: 18px;
+    }
+    .arrow-container-prev {
+        left: 15px;
+    }
+    .arrow-container-next {
+        right: 15px;
+    }
+    .arrow-container-prev, .arrow-container-next {
+        width: 50px;
+        height: 50px;
     }
 }
 
@@ -139,7 +229,30 @@ h1 {
         transition: height 1s;
         height: 300px;
     }
-    .carouselh1 {
+    .carousel-links {
         font-size: 20px;
+    }
+    .textbg, .textbg2 {
+        width: 280px;
+        height: 30px;
+    }
+    .arrow {
+        padding: 7px; 
+    }
+    .arrow-prev {
+        left: 20px;
+    }
+    .arrow-next {
+        right: 20px;
+    }
+    .arrow-container-prev {
+        left: 15px;
+    }
+    .arrow-container-next {
+        right: 15px;
+    }
+    .arrow-container-prev, .arrow-container-next {
+        width: 50px;
+        height: 50px;
     }
 }

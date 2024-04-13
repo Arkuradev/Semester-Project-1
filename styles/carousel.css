@@ -12,6 +12,7 @@
     color: #eee;
     font-size: 50px;
     text-decoration: none;
+    opacity: 1;
 }
 .carousel-links:hover {
     color: var(--main-color);

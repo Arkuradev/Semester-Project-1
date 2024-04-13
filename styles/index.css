@@ -2,29 +2,14 @@
 
 
 
-.specialevents {
-    display: flex;
-    justify-content: center;
-    width: 1200px;
-    margin: 0 auto;
-
-}
-
-.energetica-img {
-    width: 1200px;
-    height: 700px;   
-    border-radius: 4px; 
-    margin-bottom: 59px;
-}
-
 /* Welcome section & image of AI Robot */
 
-.welcome-section {
+.welcome {
     display: flex;
     justify-content: center;
     align-items: center;
-   
 }
+
 .welcome-container {
     display: flex;
     width: 1200px;
@@ -129,7 +114,7 @@
 .explore-container:hover {
     filter: brightness(80%);
 }
-.kids-container:hover >.explore-text, .teacher-container:hover > .explore-text, .researcher-container:hover > .explore-text {
+.kids-container:hover > .explore-text, .teacher-container:hover > .explore-text, .researcher-container:hover > .explore-text {
     display: block;
 }
 .click-img {
@@ -137,12 +122,16 @@
     width: 100%;
     left: 0;
     top: 0;
-    position: absolute;
-    
+    position: absolute;   
 }
 
 /* Explore section responsive and look good on different screens */
 
+@media (max-width: 1000px) {
+    .explore { 
+        flex-wrap: wrap;
+    }
+}
 @media (max-width: 378px) {
     .kids-container, .teacher-container, .researcher-container {
        width: 300px; 
@@ -153,11 +142,7 @@
         display: block;
     }
 }
-@media (max-width: 1000px) {
-    .explore { 
-        flex-wrap: wrap;
-    }
-}
+
 
 
 

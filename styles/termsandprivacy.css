@@ -55,8 +55,12 @@ a {
 
 }
 .termsprivacy-link {
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+.termsprivacy-link:hover {
     color: var(--main-color);
-    font-weight: 500;
 }
 
 

@@ -130,6 +130,9 @@ h1 {
     h1 {
         font-size: 30px;
     }
+    h4 {
+        font-size: 14px;
+    }
     .text-container, .text-container-teacher {
         width: 300px;
     }

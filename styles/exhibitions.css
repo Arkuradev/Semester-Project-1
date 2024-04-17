@@ -6,15 +6,64 @@ h1 {
     z-index: 2;
 }
 
-/* Image styling */
+/* Floating astronaut on a spacewalk*/
 .astronaut-img {
-    width: 220px;
-    height: 220px;
+    width: 200px;
+    height: 200px;
     transform: rotate(15deg);
-    position: relative;
-    left: 1000px;  
     z-index: -1;
+    align-items: center;
 }
+.moving-img {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    
+    position: relative;
+    animation: hovering-astro 60s infinite;
+}
+/* Created the floating animation for the astronaut */ 
+@keyframes hovering-astro {
+    0%   {top: 0px; right: 0px;}
+    10%  {top: 80px; right: 80px;}
+    20%  {top: 0px; right: 160px;}
+    30%  {top: 80px; right: 240px;}
+    40%  {top: 0px; right: 320px;}
+    50% {top: 80px; right: 400px;}
+    60% {top: 0px; right: 320px;}
+    70% {top: 80px; right: 240px;}
+    80% {top: 0px; right: 160px;}
+    90% {top: 80px; right: 80px;}
+    100% {top: 0px; right: 0px;}
+  }
+
+  @media (min-width: 1200px) {
+    .moving-img {
+    padding-right: 300px;
+    }
+  }
+  @media (max-width: 1000px) {
+    .astronaut-img {
+        width: 170px;
+        height: 170px;
+    }
+  }
+  @media (max-width: 650px) {
+   /* Change the distance of the animation to better fit the screen resolution */ 
+    @keyframes hovering-astro {
+        0%   {top: 0px; right: 0px;}
+        10%  {top: 40px; right: 80px;}
+        20%  {top: 0px; right: 120px;}
+        30%  {top: 40px; right: 180px;}
+        40%  {top: 0px; right: 220px;}
+        50% {top: 40px; right: 180px;}
+        60% {top: 0px; right: 160px;}
+        70% {top: 40px; right: 100px;}
+        80% {top: 0px; right: 60px;}
+        90% {top: 40px; right: 40px;}
+        100% {top: 0px; right: 0px;}
+      }
+  }
 
 .exhibitions-img {
     width: 500px;
@@ -75,6 +124,7 @@ h1 {
 @media (max-width: 1215px) {
     .cosmology-container, .evolution-container, .biology-container, .robotics-container, .ecology-container {
         width: 1000px; 
+
         
     }
     .image-container {
@@ -90,6 +140,10 @@ h1 {
     
 }
 @media (max-width: 1020px) {
+    .cosmology-container {
+        margin-top: 1px;
+    }
+    
     .cosmology-container, .evolution-container, .biology-container, .robotics-container, .ecology-container {
         flex-direction: column-reverse;
         align-items: center;
@@ -113,6 +167,12 @@ h1 {
     }
     .exhibition-text h4 {
         margin-left: 10px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .cosmology-container {
+        margin-top: 31px;
     }
 }
 

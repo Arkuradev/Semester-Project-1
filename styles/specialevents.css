@@ -5,17 +5,17 @@ h1 {
     margin-bottom: 50px;
 }
 
-.aeronautics-img, .energetica-img {
+.aeronautics-img, .energetica-img, .nightmuseum-img {
     width: 500px;
-    height: 335px;
+    height: auto;
     border-radius: 4px;
+}
+.aeronautics-img, .energetica-img {
+    margin-right: 10px;
 }
 .nightmuseum-img {
-    width: 340px;
-    height: 360px;
-    border-radius: 4px;
+    margin-left: 10px;
 }
-
 
 .specialevents {
     display: flex;
@@ -25,18 +25,85 @@ h1 {
 .aeronautics-container, .nightmuseum-container, .energetica-container {
     display: flex;
     width: 1200px;
-    height: 400px;
+    height: auto;
     background-color: var(--main-color);
     align-items: center;
-    padding: 40px;
+    padding-bottom: 40px;
+    padding-top: 40px;
     margin-bottom: 40px;
     border-radius: 4px;
     
 }
 .text-container {
     background-color: var(--main-color);
-    padding: 40px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
-.text-container h4 {
+.text-container h2 {
+    margin-top: 15px;
     margin-bottom: 25px;
+}
+
+@media (max-width: 1200px) {
+
+    .aeronautics-container, .nightmuseum-container, .energetica-container {
+        width: 1000px;
+    }
+}
+
+@media (max-width: 1020px) {
+    .aeronautics-container, .nightmuseum-container, .energetica-container {
+        width: 600px;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .text-container {
+        text-align: center;
+    }
+    .aeronautics-img, .energetica-img {
+        margin-right: 0;
+    }
+    .nightmuseum-img {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 650px) {
+    h1 {
+        font-size: 30px;
+    }
+    .aeronautics-container, .nightmuseum-container, .energetica-container {
+        width: 450px;
+    }
+    .text-container {
+        width: 400px;
+        padding-left: 0;
+        text-align: center;
+    }
+    .text-container h2 {
+        font-size: 16px;
+    }
+    .text-container p {
+        width: 400px;
+        font-size: 16px;
+    }
+    .aeronautics-img, .energetica-img, .nightmuseum-img {
+        width: 400px;
+        height: auto;
+    }
+}
+
+@media (max-width: 420px) {
+    .aeronautics-container, .nightmuseum-container, .energetica-container {
+        width: 350px;
+    }
+    .text-container, .text-container p {
+        width: 300px;
+    }
+    
+    .aeronautics-img, .energetica-img, .nightmuseum-img {
+        width: 300px;
+        height: auto;
+    }
 }

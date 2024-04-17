@@ -3,6 +3,7 @@
 h1 {
     margin-top: 200px;
     margin-bottom: -200px;
+    z-index: 2;
 }
 
 /* Image styling */
@@ -12,6 +13,7 @@ h1 {
     transform: rotate(15deg);
     position: relative;
     left: 1000px;  
+    z-index: -1;
 }
 
 .exhibitions-img {

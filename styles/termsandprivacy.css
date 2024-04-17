@@ -21,6 +21,7 @@ h1, .text-container h2 {
 }
 li {
     list-style:disc;  
+    margin-bottom: 10px;
 }
 ul {
     margin-left: 25px;
@@ -34,11 +35,18 @@ ul {
     font-weight: bold;
 }
 
+.privacy-section, .terms-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .text-container {
     display: flex;
     flex-direction: column;
     margin-bottom: 40px;
-    
+    width: 1200px;
 }
 
 a {
@@ -46,27 +54,34 @@ a {
     color: black;
 
 }
-.termsprivacy-link:hover {
+.termsprivacy-link {
     color: var(--main-color);
-    text-decoration: underline;
+    font-weight: 500;
 }
 
 
-/* Set max-width of text containers to 1200px and compresses the containers as the resolution gets smaller */
-@media (min-width: 1000px) {
-    .text-container {
-        max-width: 1200px;
-    }
-}
+
 
 /* Changes font sizes to fit screen size */
-
+@media (max-width: 1215px) {
+    .text-container {
+        width: 1000px;
+    }
+}
+@media (max-width: 1000px) {
+    .text-container {
+        width: 600px;
+    }
+}
 @media (max-width: 650px) {
     h1 {
         font-size: 40px;
     }
     .text-container h2 {
         font-size: 25px;
+    }
+    .text-container {
+        width: 400px;
     }
     .text-container p, .text-container li {
         font-size: 14px;
@@ -76,12 +91,15 @@ a {
 
 /* Changes font sizes to fit the smallest screen sizes */
 
-@media (max-width: 400px) {
+@media (max-width: 420px) {
     h1 {
         font-size: 30px;
     }
     .text-container h2 {
         font-size: 20px;
+    }
+    .text-container {
+        width: 300px;
     }
     .text-container p, .text-container li {
         font-size: 12px;

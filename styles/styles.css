@@ -43,6 +43,12 @@ h1 {
 
 /* Color Container at different screen sizes */
 
+@media (min-width: 1200px) {
+    .color-container-1 {
+        width: 1200px;
+    }
+}
+
 @media (max-width: 1199px) {
     .color-container-1 {
         width: 1000px;

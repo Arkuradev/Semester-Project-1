@@ -1,14 +1,18 @@
 @import url("variables.css");
+
 h1 {
     margin-bottom: 50px;
     font-size: 50px;
     text-align: center;
 }
+.color-container-1 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
 
 .kid-img {
     width: 1200px;
     height: auto;
-    border-radius: 4px;
 }
 .teacher-img {
     width: 415px;
@@ -24,10 +28,23 @@ h1 {
     flex-direction: column;
 }
 .text-container {
+    background-color: var(--main-color);
+    padding: 10px;
+    border-radius: 4px;
     width: 1200px;
-    margin-bottom: 10px;
+    height: auto;
+    margin: 20px;
 }
-.text-container h4 {
+
+.text-container-teacher {
+    width: 500px;
+    background-color: var(--main-color);
+    border-radius: 4px;
+    padding: 10px;
+    margin: 20px;
+    height: auto;
+}
+.text-container h4, .text-container-teacher h4 {
     margin-bottom: 40px;
 }
 .text-container p {
@@ -40,13 +57,14 @@ h1 {
     padding: 20px;
     justify-content: center;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .teacher-container {
     display: flex;
     align-items: center;
-    margin: 0 auto;
-    width: 1200px;
+    justify-content: center;
+    margin-bottom: 50px;
 }
 
 .researcher-container {
@@ -57,7 +75,69 @@ h1 {
     margin-bottom: 40px;
 }
 
-.color-container-1 {
-    margin-top: 50px;
-    margin-bottom: 50px;
+@media (max-width: 1215px) {
+    .text-container {
+        width: 1000px;
+    }
+    .text-container-teacher {
+        width: 800px;
+    }
+    .kid-img, .research-img {
+        width: 1000px;
+    }
+    .teacher-container {
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 1020px) {
+    .text-container {
+        width: 800px;
+    }
+    .kid-img, .research-img {
+        width: 800px;
+    }
+}
+
+@media (max-width: 817px) {
+    .text-container, .text-container-teacher {
+        width: 600px;
+    }
+    .kid-img, .research-img {
+        width: 600px;
+    }
+}
+
+@media (max-width: 650px) {
+    h1 {
+        font-size: 40px;
+    }
+    .text-container, .text-container-teacher {
+        width: 400px;
+    }
+    .text-container h4, .text-container-teacher h4 {
+        text-align: center;
+    }
+    .text-container p, .text-container-teacher p {
+        font-size: 14px;
+    }
+    .kid-img, .teacher-img, .research-img {
+        width: 400px;
+    }
+}
+@media (max-width: 420px) {
+    h1 {
+        font-size: 30px;
+    }
+    .text-container, .text-container-teacher {
+        width: 300px;
+    }
+    .text-container p, .text-container-teacher p {
+        font-size: 12px;
+    }
+    .kid-img, .teacher-img, .research-img {
+        width: 300px;
+    }
+    
 }

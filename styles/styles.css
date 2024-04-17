@@ -41,7 +41,8 @@ h1 {
     margin: 0 auto;
 }
 
-/* Color Container at different screen sizes */
+/* Color Container at different screen sizes, this container is used on different pages on the website. 
+This makes the transition to the next part of the site look better. */
 
 @media (min-width: 1200px) {
     .color-container-1 {
@@ -88,7 +89,6 @@ header {
     position: fixed;
     z-index: 4;
     width: 100%;
-    
     font-size: 1.5rem;
     margin-bottom: 10px;
     display: block;
@@ -97,6 +97,7 @@ header {
 
 nav {
     position: absolute;
+    
     left: 0;
     border-radius: 0 0 4px 4px;
     margin-top: 10px;
@@ -112,6 +113,7 @@ nav a {
     font-weight: 500;
     font-size: 20px;
     text-align: center;
+    
 }
 nav a:hover {
     color: var(--main-color);
@@ -119,9 +121,9 @@ nav a:hover {
 
 .nav-logo {
     padding-top: 15px;
+    
 }
 .navbar-a {
-    
     padding-bottom: 5px;
 }
 
@@ -151,7 +153,7 @@ nav a:hover {
     }
     .navbar-a {
         display: flex;
-        width: 500px;
+
         align-items: end;
     }
     .nav-logo {

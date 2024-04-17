@@ -18,7 +18,6 @@ h1 {
     width: 100%;
     display: flex;
     justify-content: flex-end;
-    
     position: relative;
     animation: hovering-astro 60s infinite;
 }

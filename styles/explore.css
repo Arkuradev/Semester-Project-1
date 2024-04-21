@@ -47,7 +47,7 @@ h1 {
 .text-container h4, .text-container-teacher h4 {
     margin-bottom: 40px;
 }
-.text-container p {
+.text-container p, .text-container-teacher p {
     padding-bottom: 15px;
 }
 

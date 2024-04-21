@@ -229,6 +229,9 @@
         height: auto;
         text-align: center;
     }
+    .food-drink-container h4, .shop-container h4, .accessibility-container h4 {
+        padding-right: 30px;
+    }
     h4 {
         text-align: center;
     }

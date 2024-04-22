@@ -257,3 +257,11 @@
         height: 50px;
     }
 }
+@media (max-width: 370px) {
+    .carousel-wrapper {
+        transition: width 1s;
+        width: 330px;
+        transition: height 1s;
+        height: 250px;
+    }
+} 

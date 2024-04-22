@@ -69,6 +69,12 @@ This makes the transition to the next part of the site look better. */
 @media (max-width: 650px) {
     .color-container-1 {
         width: 350px;
+        height: 30px;
+    }
+}
+@media (max-width: 400px) {
+    .color-container-1 {
+        width: 300px;
     }
 }
 

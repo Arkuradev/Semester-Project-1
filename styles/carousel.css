@@ -2,7 +2,9 @@
 
 /* Carousel styling for home page. */ 
 
-
+main {
+    padding-top: 50px;
+}
 
 /* Carousel links styling  */
 .carousel-links {
@@ -39,7 +41,7 @@
     right: 0;
     border-radius: 70px 0 0 0;
 }
-/* Carousel wrapper - Size of the carousel on max resolution. Scaling it down as resolution gets lower */
+/* Carousel wrapper  */
 
 .carousel-wrapper {
     height: 600px;

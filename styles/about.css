@@ -68,6 +68,7 @@ h2 {
 @media (max-width: 1230px) {
     .text-container {
         width: 500px;
+        text-align: center;
     }
     .aboutus-teacher-img {
         width: 500px;
@@ -101,6 +102,7 @@ h2 {
     }
     .visitus-info {
         width: 300px;
+        text-align: center;
     }
     .visitus-text h4 {
         padding-top: 25px;

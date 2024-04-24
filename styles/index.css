@@ -156,6 +156,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 .misc-info-container, .museum-info-container {
     display: flex;
@@ -172,12 +173,12 @@
 }
 .food-drink-container h4, .shop-container h4, .accessibility-container h4 {
     margin-top: 20px;
-    padding-left: 30px;
 }
 
 .opening-container {
     width: 400px;
     height: auto;
+    margin-right: 50px;
     padding: 30px;
     line-height: 1.5rem;
     text-align: center;
@@ -197,6 +198,12 @@
 /* Making museum info and misc info responsive */ 
 
 
+@media (max-width: 1067px) {
+    .opening-container {
+        margin-right: 0;
+    }
+}
+
 @media (max-width: 817px) {
     .food-drink-container {
         margin-top: 20px;
@@ -208,7 +215,7 @@
 }
 
 @media (max-width: 650px) {
-    .opening-container, .admission-container {
+    .admission-container {
         width: 400px;
         height: auto;
     }
@@ -224,11 +231,12 @@
     
 }
 @media (max-width: 418px) {
-    .food-drink-container p, .shop-container p, .accessibility-container p, .opening-container, .admission-container {
+    .food-drink-container p, .shop-container p, .accessibility-container p, .admission-container {
         width: auto;
         height: auto;
         text-align: center;
     }
+    
     .food-drink-container h4, .shop-container h4, .accessibility-container h4 {
         padding-right: 30px;
     }

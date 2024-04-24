@@ -105,14 +105,11 @@ nav {
     position: absolute;
     left: 0;
     border-radius: 0 0 4px 4px;
-    margin-top: 10px;
-    padding-top: 10px;
     box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 0 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 nav a {
     display: block;
-    
     text-decoration: none;
     color: var(--font-color);
     font-weight: 500;
@@ -124,13 +121,7 @@ nav a:hover {
     color: var(--main-color);
 }
 
-.nav-logo {
-    padding-top: 15px;
-    
-}
-.navbar-a {
-    padding-bottom: 5px;
-}
+
 
 /* NAVBAR RESPONSIVE */
 /* For desktop view */ 
@@ -147,11 +138,11 @@ nav a:hover {
     .hamburger-icon {
         display: none;
     }
-    
+   
     nav a {
         display: inline-block; 
         margin-top: 20px;
-        margin-left: 7px;
+        padding-left: 5px;
     }
     .navbar-links {
         display: flex;
@@ -164,32 +155,14 @@ nav a:hover {
     }
     .navbar-a {
         height: auto;
-        padding-bottom: 0;
         margin-top: 45px;
-    }
-    .nav-logo {
-        display: flex;
-        margin-left: 5px;
-        margin-top: 1px;
     }
 }
 
 /* Move logo to make room for links before mobile view */
-@media (max-width: 750px) {
-    .nav-logo { 
-        margin-left: 0px;
-    }
-}
-@media (max-width: 716px) {
-    .navbar-a a {
-        font-size: 16px;
-    }
-    nav a {
-        margin-top: 25px;
-    }
-}
+
 /* Increase padding on hamburger menu to make it visually better and easier to click. */
-@media (max-width: 650px) {
+@media (max-width: 649px) {
     header {
         padding: 5px;
     }

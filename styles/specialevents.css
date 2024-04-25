@@ -39,7 +39,7 @@ h1 {
     text-align: center;
     padding: 10px;
 }
-.text-container-events h2 {
+.text-container-events h4 {
     margin-top: 25px;
     margin-bottom: 25px;
 }
@@ -51,8 +51,11 @@ h1 {
         flex-direction: column-reverse;
         
     }
+    .text-container-events {
+        border-radius: 4px 4px 0 0;
+    }
     .aeronautics-img, .energetica-img, .nightmuseum-img {
-        margin-top: 20px;
+        border-radius: 0 0 4px 4px;
     }
     
     .text-container-events {

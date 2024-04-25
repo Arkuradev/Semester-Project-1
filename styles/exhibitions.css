@@ -119,7 +119,6 @@ h1 {
 .exhibition-text h4 {
     background-color: var(--main-color);
     margin-top: 10px;
-    
 }
 
 
@@ -136,9 +135,19 @@ h1 {
         flex-direction: column-reverse;
         align-items: center;
     }
+
+    /* When flex direction is column this will remove border radius from bottom part of images and from top part of blue 
+    containers since margin is set to 0 between the 2 elements. */
+
     .exhibitions-img {
         width: 600px;
         height: 300px;
+        border-radius: 4px 4px 0 0;
+    }
+    .exhibition-text {
+        margin-top: 0;
+        border-radius: 0 0 4px 4px;
+        
     }
     .left-img {
         margin-left: 20px;

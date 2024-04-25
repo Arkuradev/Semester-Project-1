@@ -163,6 +163,55 @@
     }
 }
 
+.color-container-1 {
+    max-width: 1200px;
+    height: 50px;
+    background-color: var(--main-color);
+    border-radius: 4px;
+    margin: 0 auto;
+}
+
+/* Color containers for Museum info section on the Index page. This is only used on this.
+
+*/
+
+@media (min-width: 1200px) {
+    .color-container-1 {
+        width: 1200px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .color-container-1 {
+        width: 1000px;
+    }
+}
+@media (max-width: 1017px) {
+    .color-container-1 {
+        width: 800px;
+    }
+}
+@media (max-width: 816px) {
+    .color-container-1 {
+        width: 400px;
+        height: 40px;
+    }
+}
+@media (max-width: 650px) {
+    .color-container-1 {
+        height: 30px;
+    }
+}
+@media (max-width: 420px) {
+    .color-container-1 {
+        width: 350px;
+    }
+}
+@media (max-width: 378px) {
+    .color-container-1 {
+        width: 300px;
+    }
+}
 
 
 

@@ -37,60 +37,6 @@ h1 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-/* Color container for line transition several places on the website  */
-
-.color-container-1 {
-    max-width: 1200px;
-    height: 50px;
-    background-color: var(--main-color);
-    border-radius: 4px;
-    margin: 0 auto;
-}
-
-/* Color containers for Museum info section on the Index page. This is only used on this. Move this to index.css. 
-
-
-IMPORTANT
-
-*/
-
-@media (min-width: 1200px) {
-    .color-container-1 {
-        width: 1200px;
-    }
-}
-
-@media (max-width: 1199px) {
-    .color-container-1 {
-        width: 1000px;
-    }
-}
-@media (max-width: 1017px) {
-    .color-container-1 {
-        width: 800px;
-    }
-}
-@media (max-width: 816px) {
-    .color-container-1 {
-        width: 400px;
-        height: 40px;
-    }
-}
-@media (max-width: 650px) {
-    .color-container-1 {
-        height: 30px;
-    }
-}
-@media (max-width: 420px) {
-    .color-container-1 {
-        width: 350px;
-    }
-}
-@media (max-width: 378px) {
-    .color-container-1 {
-        width: 300px;
-    }
-}
 
 /* Navbar Styling */
 
@@ -191,6 +137,9 @@ nav a:hover {
     nav a {
         margin-top: 0;
         padding: 10px 10px;
+    }
+    .hamburger-icon {
+        margin-left: 0.4em;
     }
 }
 

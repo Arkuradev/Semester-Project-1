@@ -8,17 +8,17 @@
     margin: 0;
     padding: 0;    
 }
+
 html, nav, header {
     background-color: var(--bg-color);
 }
+
 main {
     overflow: hidden;
     padding-top: 150px;
 }
 
-
 h1 {
-    
     font-size: 50px;
     font-weight: 500;
     text-align: center;
@@ -39,8 +39,6 @@ h1 {
 
 
 /* Navbar Styling */
-
-
 
 nav, 
 #nav-checkbox {
@@ -75,19 +73,17 @@ nav a {
     color: var(--footer-color);
     font-weight: 500;
     font-size: 20px;
-    text-align: center;
-    
+    text-align: center;  
 }
+
 nav a:hover {
     color: var(--main-color);
 }
 
-
-
 /* NAVBAR RESPONSIVE */
 /* For desktop view */ 
 @media (min-width: 650px){
-    
+
     nav {
         display: block;
         position: static;
@@ -96,6 +92,7 @@ nav a:hover {
         justify-content: center;
         margin: 0 auto;
     }
+
     .hamburger-icon {
         display: none;
     }
@@ -105,19 +102,22 @@ nav a:hover {
         margin-top: 20px;
         padding-left: 5px;
     }
+
     .navbar-links {
         display: flex;
         justify-content: space-between;
         
     }
+
     .navbar-links a {
-        border-radius: 4px;
-        
+        border-radius: 4px;  
     }
+
     .navbar-a {
         height: auto;
         margin-top: 45px;
     }
+
     .nav-logo {
         width: 170px;
         height: 80px;
@@ -127,6 +127,7 @@ nav a:hover {
 /* Tablet/Mobile view of the nav bar */
 /* Increase padding on hamburger menu to make it visually better and easier to click. */
 @media (max-width: 649px) {
+
     header {
         padding: 5px;
     }
@@ -134,10 +135,12 @@ nav a:hover {
     nav {
         margin-top: 5px;
     }
+
     nav a {
         margin-top: 0;
         padding: 10px 10px;
     }
+
     .hamburger-icon {
         margin-left: 0.4em;
     }
@@ -153,29 +156,30 @@ nav a:hover {
     justify-content: space-evenly;
     margin-top: 100px;
 }
+
 .flower-img {
     width: 90px;
     height: auto;
     margin-top: 110px;
-    
 }
+
 .flower-container {
     width: 200px;
     height: 200px;
 }
+
 .tree-container {
     width: 200px;
     height: 200px;
     padding: 17px;
     margin-bottom: 0;
-    
 }
+
 .tree-img {
     width: 185px;
     height: auto;
-    
-    
 }
+
 .bee-img {
     width: 60px;
     height: auto;
@@ -185,6 +189,7 @@ nav a:hover {
 }
 
 @media (max-width: 650px) {
+
     .tree-img {
         width: 130px;
         height: auto;
@@ -204,24 +209,28 @@ nav a:hover {
     }
 }
 @media (max-width: 550px) {
+
     .tree-img {
         width: 100px;
         height: auto;
         padding-top: 30px;
     }
+
     .flower-img {
         width: 40px;
         height: auto;
         margin-left: 20px;
-        margin-top: 160px;
-        
+        margin-top: 160px; 
     }
+
     .bee-container {
         width: 130px;
     }
+
     .flower-img {
         margin-left: 70px;
     }
+
     .bee-img {
         margin-left: 30px;
     }
@@ -252,12 +261,14 @@ footer {
     display: flex;
     flex-direction: column;
 }
+
 .footer-links a {
     text-decoration: none;
     background-color: var(--footer-color);
     color: #fff;
     font-size: 20px;
 }
+
 .footer-links a:hover {
     color: var(--main-color);
     text-decoration: none;
@@ -270,12 +281,14 @@ footer {
     margin-top: 200px;
     text-align: center;
 }
+
 .footerlogo-img {
     background-color: var(--footer-color);
     width: 200px;
     height: auto;
     margin-bottom: 10px;
 }
+
 .copyright {
     background-color: var(--footer-color);
     color: #fff;
@@ -291,12 +304,15 @@ footer {
     padding-right: 15px;
     line-height: 2rem;
 }
+
 .footer-visit h2 {
     font-size: 20px;
 }
+
 .footer-visit p {
     font-size: 12px;
 }
+
 .footer-visit h2, .footer-visit p {
     background-color: var(--footer-color);
     color: #fff;
@@ -309,10 +325,10 @@ footer {
         width: 100%;
         display: table;   
     }
+    
     .footer-container div span {
         padding: 20px;
         display: block;
-
     }
     
     .footer-links {
@@ -321,6 +337,7 @@ footer {
         justify-content: center;
         margin: 0 auto;
     }
+
     .footer-visit {
         text-align: center;
         float: none;
@@ -330,10 +347,9 @@ footer {
         margin-top: 50px;
         margin-bottom: 50px;
     }
+
     .footer-logo {
         display: table-footer-group;
         margin: 0 auto;
     }
-    
-    
  }

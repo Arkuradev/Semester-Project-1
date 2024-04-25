@@ -148,7 +148,7 @@ main {
 }
 
 /* Carousel resizing according to the screen size */ 
-@media (max-width: 1202px) {
+@media (max-width: 1210px) {
     .carousel-wrapper {
         transition: width 1s;
         width: 1000px;
@@ -189,7 +189,7 @@ main {
 
 }
 
-@media (max-width: 641px) {
+@media (max-width: 650px) {
     .carousel-wrapper {
         transition: width 1s;
         width: 500px;

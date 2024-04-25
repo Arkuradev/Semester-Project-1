@@ -40,10 +40,21 @@
 }
 
 /* Making welcome section responsive and look good on different screens */
+@media (max-width: 1210px) {
+    .welcome-container {
+        width: 1000px;
+    }
+}
+@media (max-width: 1002px) {
+    .welcome-container {
+        width: 800px;
+    }
+}
 
-@media (max-width: 650px) {
+@media (max-width: 802px) {
     .welcome-container {
         flex-wrap: wrap;
+        width: 640px;
         justify-content: center;
         text-align: center;
         line-height: 1.5rem;
@@ -52,7 +63,15 @@
         padding-left: 0;
     }
 }
-@media (max-width: 500px) {
+@media (max-width: 650px) {
+    .welcome-container {
+        width: 500px;
+    }
+}
+@media (max-width: 503px) {
+    .welcome-container {
+        width: 350px;
+    }
     .welcome-container p {
         font-size: 12px;
     }

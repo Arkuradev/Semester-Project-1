@@ -20,6 +20,7 @@
 }
 .welcome-text {
     padding: 20px;
+    line-height: 1.5rem;
     background-color: var(--main-color);
 }
 .explore-p {
@@ -172,19 +173,20 @@
     padding: 15px 30px;
 }
 .food-drink-container h4, .shop-container h4, .accessibility-container h4 {
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 .opening-container {
     width: 400px;
     height: auto;
-    margin-right: 50px;
+    margin-right: 70px;
     padding: 30px;
     line-height: 1.5rem;
     text-align: center;
 }
 .opening-container h4, .admission-container h4 {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .opening-container li {
     list-style-type: none;
@@ -198,7 +200,7 @@
 /* Making museum info and misc info responsive */ 
 
 
-@media (max-width: 1067px) {
+@media (max-width: 1200px) {
     .opening-container {
         margin-right: 0;
     }
@@ -206,18 +208,14 @@
 
 @media (max-width: 817px) {
     .food-drink-container {
-        margin-top: 20px;
+        margin-top: 10px;
         height: 150px;
     }
     .shop-container {
         margin-top: 10px;
     }
-}
-
-@media (max-width: 650px) {
     .admission-container {
         width: 400px;
-        height: auto;
     }
 }
 

@@ -10,13 +10,12 @@ h1 {
     height: auto;
     border-radius: 4px;
 }
-.aeronautics-img, .energetica-img {
-    margin-right: 10px;
+.right-img {
+    margin-left: 20px;
 }
-.nightmuseum-img {
-    margin-left: 10px;
+.left-img {
+    margin-right: 20px;
 }
-
 .specialevents {
     display: flex;
     flex-direction: column;
@@ -26,46 +25,44 @@ h1 {
     display: flex;
     width: 1200px;
     height: auto;
-    background-color: var(--main-color);
+    margin-bottom: 20px;
     align-items: center;
-    padding-bottom: 40px;
-    padding-top: 40px;
-    margin-bottom: 40px;
     border-radius: 4px;
     
 }
-.text-container {
+.text-container-events {
     background-color: var(--main-color);
-    padding-bottom: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
+    width: 600px;
+    height: 335px;
+    border-radius: 4px;
+    line-height: 1.5rem;
+    text-align: center;
+    padding: 10px;
 }
-.text-container h2 {
-    margin-top: 15px;
+.text-container-events h2 {
+    margin-top: 25px;
     margin-bottom: 25px;
 }
-
-@media (max-width: 1200px) {
-
-    .aeronautics-container, .nightmuseum-container, .energetica-container {
-        width: 1000px;
-    }
-}
-
-@media (max-width: 1020px) {
-    .aeronautics-container, .nightmuseum-container, .energetica-container {
-        width: 600px;
+@media (max-width: 1215px) {
+    .aeronautics-container, .energetica-container {
         flex-direction: column;
-        overflow: hidden;
     }
-    .text-container {
-        text-align: center;
+    .nightmuseum-container {
+        flex-direction: column-reverse;
+        
     }
-    .aeronautics-img, .energetica-img {
-        margin-right: 0;
+    .aeronautics-img, .energetica-img, .nightmuseum-img {
+        margin-top: 20px;
     }
-    .nightmuseum-img {
-        margin-left: 0;
+    
+    .text-container-events {
+        width: 500px;
+    }
+    .right-img {
+        margin-left: 0px;
+    }
+    .left-img {
+        margin-right: 0px;
     }
 }
 
@@ -76,16 +73,14 @@ h1 {
     .aeronautics-container, .nightmuseum-container, .energetica-container {
         width: 450px;
     }
-    .text-container {
+    .text-container-events {
         width: 400px;
-        padding-left: 0;
-        text-align: center;
     }
-    .text-container h2 {
+    .text-container-events h2 {
         font-size: 16px;
     }
-    .text-container p {
-        width: 400px;
+    .text-container-events p {
+        
         font-size: 16px;
     }
     .aeronautics-img, .energetica-img, .nightmuseum-img {
@@ -97,9 +92,17 @@ h1 {
 @media (max-width: 420px) {
     .aeronautics-container, .nightmuseum-container, .energetica-container {
         width: 350px;
+        height: auto;
     }
-    .text-container, .text-container p {
+    .text-container-events {
         width: 300px;
+        height: auto;
+    }
+    .text-container-events p {
+        font-size: 12px;
+    }
+    .text-container-events h2 {
+        font-size: 16px;
     }
     
     .aeronautics-img, .energetica-img, .nightmuseum-img {

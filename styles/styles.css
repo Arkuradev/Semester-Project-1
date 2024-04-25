@@ -72,17 +72,21 @@ IMPORTANT
 }
 @media (max-width: 816px) {
     .color-container-1 {
-        width: 600px;
+        width: 400px;
         height: 40px;
     }
 }
 @media (max-width: 650px) {
     .color-container-1 {
-        width: 350px;
         height: 30px;
     }
 }
-@media (max-width: 400px) {
+@media (max-width: 420px) {
+    .color-container-1 {
+        width: 350px;
+    }
+}
+@media (max-width: 378px) {
     .color-container-1 {
         width: 300px;
     }

@@ -2,31 +2,45 @@
 
 
 
+
+/* Container for contact form and image */
 .formbox-container {
     display: flex;
     justify-content: center;
 }
 
+/* Margin top for contact form and image container */
 .formbox, .img-container {
     margin-top: 50px;
     margin-bottom: 50px;
-    width: 500px;
-    height: auto;
+}
+/* Set the background color of contact form container */
+.formbox {
     background-color: var(--main-color);
 }
-
+/* Size of contact form container */
 .formbox {
+    width: 500px;
+    height: 500px;
     padding-top: 20px;
-    border-radius: 4px 0 0 4px;
+    border-radius: 4px;
 }
-
+/* Styling of the image container */
 .img-container {
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 0 4px 4px 0;
+    padding-left: 100px;
 }
-
+/* Set image size and border */
+.contact-img {
+    border-radius: 4px;
+    margin-bottom: 10px;
+    width: 500px;
+    height: 500px;
+}
+/* Styling of the contact form */
 fieldset {
     display: flex;
     flex-direction: column;
@@ -59,6 +73,7 @@ option {
     padding: 5px;
     border-radius: 4px;
 }
+/* Button styling */
 .send-btn {
     margin-top: 5px;
     height: 35px;
@@ -68,16 +83,9 @@ option {
     background-color: var(--font-color);
 }
 
-
-.contact-img {
-    border-radius: 4px;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    width: 430px;
-    height: auto;
-}
+/* Styling of Visit us info */
 .text-container {
-    width: 1000px;
+    width: 1200px;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -86,6 +94,7 @@ option {
 .text-container h2 {
     margin-bottom: 10px;
 }
+/* Increased line-height for better visibility and for information to stand out more */
 .text-container p {
     line-height: 25px;
 }
@@ -95,9 +104,9 @@ option {
     align-items: center;
 }
 
-
+/* iframe styling */
 iframe {
-    width: 1000px;
+    width: 1200px;
     height: 450px;
     border: 1px solid var(--font-color);
     border-radius: 4px;
@@ -105,9 +114,9 @@ iframe {
 
 }
 
-/* Finish styling the google map section. Explore some options with adding adress information below google maps. */
+/* Styling for different screen sizes. */
 
-@media (max-width: 1000px) {
+@media (max-width: 1080px) {
     .formbox-container {
         align-items: center;
         flex-direction: column;
@@ -118,6 +127,7 @@ iframe {
     }
     .img-container {
         margin-top: 0;
+        padding-left: 0;
         align-items: center;
         border-radius: 0 0 4px 4px;
     }
@@ -142,7 +152,7 @@ iframe {
         width: 350px;
     }
     .contact-img {
-        width: 350px;
+        width: 400px;
         height: auto;
     }
     .text-container {
@@ -168,7 +178,7 @@ iframe {
         width: 300px;
     }
     .contact-img {
-        width: 280px;
+        width: 330px;
         height: auto;
     }
     .text-container {

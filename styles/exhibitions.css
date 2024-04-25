@@ -120,7 +120,7 @@ h1 {
 }
 .exhibition-text h4 {
     background-color: var(--main-color);
-    margin-top: 30px;
+    margin-top: 20px;
     margin-left: 60px;
 }
 
@@ -158,10 +158,10 @@ h1 {
        padding: 10px;
     }
     .exhibitions-img {
-        margin-top: 30px;
+        margin-top: 20px;
     }
     .exhibition-text {
-        margin-top: 30px;
+        margin-top: 20px; 
         padding: 10px;
         text-align: center;
     }
@@ -212,7 +212,7 @@ h1 {
         width: 270px;
         height: 170px;
         margin-right: 10px;
-        margin-bottom: -30px;
+    
     }
     .exhibition-text {
         width: 280px;
@@ -221,6 +221,6 @@ h1 {
         font-size: 12px;
     }
     .exhibition-text h4 {
-        font-size: 14px;
+        font-size: 16px;
     }
 }

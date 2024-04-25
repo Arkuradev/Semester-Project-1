@@ -41,8 +41,12 @@ h1 {
     margin: 0 auto;
 }
 
-/* Color Container at different screen sizes, this container is used on different pages on the website. 
-This makes the transition to the next part of the site look better. */
+/* Color containers for Museum info section on the Index page. This is only used on this. Move this to index.css. 
+
+
+IMPORTANT
+
+*/
 
 @media (min-width: 1200px) {
     .color-container-1 {
@@ -163,8 +167,7 @@ nav a:hover {
     }
 }
 
-/* Move logo to make room for links before mobile view */
-
+/* Tablet/Mobile view of the nav bar */
 /* Increase padding on hamburger menu to make it visually better and easier to click. */
 @media (max-width: 649px) {
     header {

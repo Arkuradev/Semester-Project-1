@@ -15,19 +15,19 @@ h1 {
 .support, .volunteer, .internships {
     background-color: var(--main-color);
     border-radius: 4px;
-    margin-top: 25px;
-    margin-bottom: 5px;
     padding: 10px;
     text-align: center;
     width: 550px;
-    height: 250px;
+    height: 240px;
+}
+.support, .volunteer {
+    margin-bottom: 20px;
 }
 
 /* Get involved section */
 
 .getinvolved-container {
     display: flex;
-    margin-bottom: 50px;
     align-items: center;
     justify-content: center;
 }
@@ -45,41 +45,27 @@ h1 {
     width: 600px;
     
 }
-
-.support-container, .volunteer-container, .internships-container {
-    display: flex;
-    
-}
 .support h3, .volunteer h3, .internships h3 {
     
     margin-bottom: 20px;
 }
 
 @media (max-width: 1150px) {
-    .getinvolved-img {
-        width: 400px;
-        height: auto;
+    .support-container, .volunteer-container, .internships-container {
+        margin-right: 0;
     }
-    .image-container {
-        padding-left: 0;
-    }
+
     p {
         font-size: 14px;
     }
-    .color-container-2 {
-        height: 30px;
-    }
-}
-@media (max-width: 1050px) {
     .getinvolved-container {
         flex-direction: column;
     }
     .image-container {
         justify-content: center;
-        margin-top: 30px;
+        margin-top: 20px;
     }
 }
-
 @media (max-width: 650px) {
     h1 {
         font-size: 40px;
@@ -87,14 +73,16 @@ h1 {
     .support-container, .volunteer-container, .internships-container {
         justify-content: center;
         align-items: center;
-        margin-right: 0px; 
     }
     .support, .volunteer, .internships {
         width: 400px;
     }
-    .color-container-2 {
+    .volunteer {
+        height: 250px;
+    }
+    .getinvolved-img {
         width: 400px;
-        height: 20px;
+        height: auto;
     }
 }
 
@@ -112,9 +100,6 @@ h1 {
         text-align: center;
     }
     .support, .volunteer, .internships {
-        width: 300px;
-    }
-    .color-container-2 {
         width: 300px;
     }
     .getinvolved-img {

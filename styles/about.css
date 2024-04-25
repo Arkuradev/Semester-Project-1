@@ -3,6 +3,11 @@
 
 h2 {
     text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+}
+h4 {
+    font-weight: 600;
 }
 /* About us section & image */
 
@@ -44,10 +49,7 @@ h2 {
     padding: 25px;
 }
 
-h2 {
-    font-size: 50px;
-    font-weight: 500;
-}
+
 
 .visitus-info {
     padding: 20px;
@@ -59,7 +61,7 @@ h2 {
     line-height: 1.5rem;
 }
 .visitus-text h4 {
-    margin-top: 15px;
+    margin-top: 20px;
     margin-bottom: 3px;
 }
 

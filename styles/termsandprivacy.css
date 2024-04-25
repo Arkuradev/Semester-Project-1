@@ -38,7 +38,7 @@ ul {
     align-items: center;
 }
 
-.text-container {
+.text-container-termsprivacy {
     display: flex;
     flex-direction: column;
     margin-bottom: 40px;
@@ -64,12 +64,12 @@ a {
 
 /* Changes font sizes to fit screen size */
 @media (max-width: 1215px) {
-    .text-container {
+    .text-container-termsprivacy {
         width: 1000px;
     }
 }
 @media (max-width: 1000px) {
-    .text-container {
+    .text-container-termsprivacy {
         width: 600px;
     }
 }
@@ -77,13 +77,13 @@ a {
     h1 {
         font-size: 35px;
     }
-    .text-container h2 {
+    .text-container-termsprivacy h2 {
         font-size: 25px;
     }
-    .text-container {
+    .text-container-termsprivacy {
         width: 400px;
     }
-    .text-container p, .text-container li {
+    .text-container-termsprivacy p, .text-container-termsprivacy li {
         font-size: 14px;
     }
     
@@ -95,13 +95,13 @@ a {
     h1 {
         font-size: 20px;
     }
-    .text-container h2 {
+    .text-container-termsprivacy h2 {
         font-size: 16px;
     }
-    .text-container {
+    .text-container-termsprivacy {
         width: 300px;
     }
-    .text-container p, .text-container li {
+    .text-container-termsprivacy p, .text-container-termsprivacy li {
         font-size: 12px;
     }
 }

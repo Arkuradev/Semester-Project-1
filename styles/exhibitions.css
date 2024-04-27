@@ -12,6 +12,7 @@ h1 {
     height: 200px;
     transform: rotate(15deg);
     z-index: -1;
+    margin-right: 250px;
     align-items: center;
 }
 .moving-img {
@@ -52,6 +53,7 @@ h1 {
    .astronaut-img {
     width: 120px;
     height: 120px;
+    margin-right: 100px;
    }
     @keyframes hovering-astro {
         0%   {top: 80px; right: 0px;}
@@ -67,6 +69,11 @@ h1 {
         100% {top: 80px; right: 0px;}
       }
   }
+@media (max-width: 420px) {
+    .astronaut-img {
+        margin-right: 0;
+    }
+}
 
 .exhibitions-img {
     width: 500px;

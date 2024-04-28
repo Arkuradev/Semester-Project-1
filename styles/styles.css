@@ -24,6 +24,25 @@ h1 {
     text-align: center;
 }
 
+/* Global in page URL */ 
+a {
+    text-decoration: none;
+    color: black;
+
+}
+.inpage-link, .bg-link {
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+.inpage-link:hover {
+    color: var(--main-color);
+}
+.bg-link:hover {
+    color: var(--footer-color);
+}
+
+
 /* Global Image styling */
 
 .exhibitions-img, .contact-img, .aeronautics-img, .nightmuseum-img, .energetica-img, .kid-img, .teacher-img, .research-img, .getinvolved-img, .insidemuseum-img {

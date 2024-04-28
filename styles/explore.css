@@ -120,9 +120,7 @@ h1 {
     .text-container h4, .text-container-teacher h4 {
         text-align: center;
     }
-    .text-container p, .text-container-teacher p {
-        font-size: 14px;
-    }
+    
     .kid-img, .teacher-img, .research-img {
         width: 400px;
     }

@@ -30,8 +30,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 0 4px 4px 0;
-    padding-left: 100px;
+    padding-left: 50px;
 }
 /* Set image size and border */
 .contact-img {

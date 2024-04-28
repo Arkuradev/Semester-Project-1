@@ -61,7 +61,6 @@ a {
 
 
 
-
 /* Changes font sizes to fit screen size */
 @media (max-width: 1215px) {
     .text-container-termsprivacy {
@@ -83,7 +82,7 @@ a {
     .text-container-termsprivacy {
         width: 400px;
     }
-    .text-container-termsprivacy p, .text-container-termsprivacy li {
+    .text-container-termsprivacy p, .text-container-termsprivacy li, .termsprivacy-link {
         font-size: 14px;
     }
     
@@ -101,7 +100,8 @@ a {
     .text-container-termsprivacy {
         width: 300px;
     }
-    .text-container-termsprivacy p, .text-container-termsprivacy li {
+    .text-container-termsprivacy p, .text-container-termsprivacy li, .termsprivacy-link {
         font-size: 12px;
     }
+    
 }

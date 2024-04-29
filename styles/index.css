@@ -76,7 +76,7 @@
         width: 350px;
     }
     .welcome-container p {
-        font-size: 12px;
+        font-size: var(--font-size-mobile);
     }
     .ai-robot {
         width: 170px;
@@ -290,9 +290,9 @@
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 503px) {
     .misc-info-container p, .museum-info-container p, .museum-info-container li {
-        font-size: 12px;
+        font-size: var(--font-size-mobile);
     }
     .admission-container p {
         line-height: 1.5rem;
@@ -360,11 +360,7 @@
     .insidemuseum-img {
         width: 300px;
     }
-}
-@media (max-width: 340px) {
-    .insidemuseum-img {
-        display: none;
-    }
+
 }
 
 

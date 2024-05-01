@@ -7,7 +7,7 @@ h1 {
 
 .aeronautics-img, .energetica-img, .nightmuseum-img {
     width: 500px;
-    height: auto;
+    height: 300px;
     border-radius: 4px;
 }
 .right-img {
@@ -33,7 +33,7 @@ h1 {
 .text-container-events {
     background-color: var(--main-color);
     width: 600px;
-    height: 335px;
+    height: 300px;
     border-radius: 4px;
     line-height: 1.5rem;
     text-align: center;

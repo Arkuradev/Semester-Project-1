@@ -7,12 +7,15 @@ h2 {
     font-weight: 500;
     padding-bottom: 5px;
 }
-h1, .text-container h2 {
+/* increase distance between h2 and p elements. */
+.text-container h2 {
     margin-left: 10px;
 }
+/* Move p elements and li elements slightly to the right. */
 .text-container p, .text-container li {
     margin-left: 10px;  
 }
+/* Set the list style and add distance between the li elements */
 li {
     list-style:disc;  
     margin-bottom: 10px;
@@ -20,9 +23,10 @@ li {
 ul {
     margin-left: 25px;
 }
+/* Styling of the last updated text line right below h1. */ 
 .updated {
     text-align: center;
-    font-size: var(--font-size-mobile);
+    font-size: var(--font-size-mobile); /* Setting font size to always be 12px */
     margin-bottom: 50px;
 }
 .b-text {

@@ -89,9 +89,6 @@
     .welcome-text h1 {
         font-size: var(--h1-mobile);
     }
-    .welcome-container p {
-        font-size: var(--font-size-mobile);
-    }
     .ai-robot {
         width: 170px;
         height: auto;
@@ -139,6 +136,10 @@
     background-image: url("../images/researchers.jpg");
 }
 
+.kids-container:hover, .teacher-container:hover, .researcher-container:hover {
+    background-image: none;
+    background-color: var(--footer-color);
+}
 .explore-text {
     align-items: center;
     text-align: center;
@@ -146,12 +147,8 @@
     color: var(--main-color);
     font-size: var(--h2);
 }
-.explore-text h2 {
+.explore-text {
     padding-top: 105px;
-}
-
-.explore-container:hover {
-    filter: brightness(80%);
 }
 .kids-container:hover > .explore-text, .teacher-container:hover > .explore-text, .researcher-container:hover > .explore-text {
     display: block;
@@ -174,11 +171,8 @@
 @media (max-width: 378px) {
     .kids-container, .teacher-container, .researcher-container {
        width: 300px; 
-       background-position: 50%;
     }
-    .explore-text {
-        display: block;
-    }
+    
 }
 
 .color-container-1 {
@@ -308,9 +302,6 @@
 }
 
 @media (max-width: 503px) {
-    .misc-info-container p, .museum-info-container p, .museum-info-container li {
-        font-size: var(--font-size-mobile);
-    }
     .admission-container p {
         line-height: 1.5rem;
     }

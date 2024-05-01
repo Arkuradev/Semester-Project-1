@@ -144,7 +144,7 @@
     text-align: center;
     display: none;
     color: var(--main-color);
-    font-size: 35px;
+    font-size: var(--h2);
 }
 .explore-text h2 {
     padding-top: 105px;
@@ -177,7 +177,6 @@
        background-position: 50%;
     }
     .explore-text {
-        font-size: 25px;
         display: block;
     }
 }
@@ -242,7 +241,6 @@
 
 .museum-misc-info, .museum-info-section {
     display: flex;
-    align-items: center;
     justify-content: center;
     text-align: center;
 }
@@ -260,7 +258,7 @@
     padding: 15px 30px;
 }
 .food-drink-container h4, .shop-container h4, .accessibility-container h4 {
-    margin-top: 30px;
+    margin-top: 50px;
     margin-bottom: 10px;
 }
 
@@ -303,6 +301,9 @@
     }
     .admission-container {
         width: 400px;
+    }
+    .accessibility-container {
+        margin-top: 0px;
     }
 }
 

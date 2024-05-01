@@ -3,7 +3,7 @@
 /*Styling for Terms and Conditions and Privacy Policy */
 
 h2 {
-    font-size: 30px;
+    font-size: var(--h2);
     font-weight: 500;
     padding-bottom: 5px;
 }
@@ -11,9 +11,7 @@ h1, .text-container h2 {
     margin-left: 10px;
 }
 .text-container p, .text-container li {
-    margin-left: 10px;
-    font-size: 16px;
-    
+    margin-left: 10px;  
 }
 li {
     list-style:disc;  
@@ -24,7 +22,7 @@ ul {
 }
 .updated {
     text-align: center;
-    font-size: 12px;
+    font-size: var(--font-size-mobile);
     margin-bottom: 50px;
 }
 .b-text {
@@ -51,7 +49,7 @@ a {
 
 }
 .termsprivacy-link {
-    font-size: 16px;
+    font-size: var(--font-size);
     font-weight: bold;
     
 }
@@ -74,7 +72,7 @@ a {
 }
 @media (max-width: 650px) {
     h1 {
-        font-size: 35px;
+        font-size: var(--h1-tablet);
     }
     .text-container-termsprivacy h2 {
         font-size: 25px;
@@ -92,10 +90,10 @@ a {
 
 @media (max-width: 420px) {
     h1 {
-        font-size: 20px;
+        font-size: var(--h1-mobile);
     }
     .text-container-termsprivacy h2 {
-        font-size: 16px;
+        font-size: var(--h2-mobile);
     }
     .text-container-termsprivacy {
         width: 300px;

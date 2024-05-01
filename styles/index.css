@@ -25,7 +25,8 @@
 }
 .welcome-text h1 {
     text-align: start;
-    margin-bottom: 15px;
+    line-height: 2rem;
+    margin-bottom: 30px;
 }
 .welcome-text p {
     margin-bottom: 5px;

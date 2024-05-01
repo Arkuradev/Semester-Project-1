@@ -172,8 +172,11 @@
     .kids-container, .teacher-container, .researcher-container {
        width: 300px; 
     }
-    
 }
+
+
+
+/* Color containers for Museum info section on the Index page. This is only used on this. */
 
 .color-container-1 {
     max-width: 1200px;
@@ -183,9 +186,6 @@
     margin: 0 auto;
 }
 
-/* Color containers for Museum info section on the Index page. This is only used on this.
-
-*/
 
 @media (min-width: 1200px) {
     .color-container-1 {
@@ -313,8 +313,6 @@
         height: auto;
         text-align: center;
     }
-    
-    
     .admission-container {
         width: 300px;
     }

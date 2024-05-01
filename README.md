@@ -1,5 +1,10 @@
 Drammen Community Science Museum (DCSM) - Semester Project 1 at Noroff
 
+
+
+![Navbar_logo_footer](https://github.com/Arkuradev/Semester-Project-1/assets/103763064/13ca442c-53e7-4d3b-a870-6529b338cfbe)
+
+
 This is the first semester project at Noroff for Front End Developer studies. 
 This project is a site for a Community Science Museum based in Drammen, Norway. 
 The Community Science Museum target audience is children from 7-15 years of age including families with small children. 

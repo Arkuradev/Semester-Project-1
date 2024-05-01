@@ -89,7 +89,7 @@ option {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    margin-bottom: 20px;
+    
 }
 .text-container-contact h2 {
     margin-bottom: 10px;
@@ -97,6 +97,14 @@ option {
 /* Increased line-height for better visibility and for information to stand out more */
 .text-container-contact p {
     line-height: 25px;
+}
+.text-container-contact {
+    background-color: var(--main-color);
+    padding: 25px;
+    border-radius: 4px 4px 0 0;
+}
+.contactus-link:hover {
+    color: var(--footer-color);
 }
 .google-map {
     display: flex;

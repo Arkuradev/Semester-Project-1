@@ -57,7 +57,7 @@ a {
 }
 
 /* Global container styling */ 
-.welcome-container, .color-container-1, .text-container-teacher, .support, .volunteer, .internships, .formbox, iframe, .exhibition-text, .text-container, .visitus-container {
+.welcome-container, .color-container-1, .text-container-teacher, .support, .volunteer, .internships, .formbox, iframe, .exhibition-text, .text-container, .visitus-container, .text-container-contact {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 

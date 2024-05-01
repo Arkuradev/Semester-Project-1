@@ -5,6 +5,7 @@ h1 {
     font-size: 50px;
     text-align: center;
 }
+
 .color-container-1 {
     margin-top: 40px;
     margin-bottom: 40px;
@@ -45,8 +46,10 @@ h1 {
     margin: 20px;
     height: auto;
 }
-.text-container h4, .text-container-teacher h4 {
+.text-container h2, .text-container-teacher h2 {
+    margin-top: 20px;
     margin-bottom: 40px;
+    text-align: center;
 }
 .text-container p, .text-container-teacher p {
     padding-bottom: 15px;
@@ -112,32 +115,23 @@ h1 {
 
 @media (max-width: 650px) {
     h1 {
-        font-size: 40px;
+        font-size: var(--h1-tablet);
+    }
+    h2 {
+        font-size: var(--h2-mobile);
     }
     .text-container, .text-container-teacher {
         width: 400px;
     }
-    .text-container h4, .text-container-teacher h4 {
-        text-align: center;
-    }
-    
     .kid-img, .teacher-img, .research-img {
         width: 400px;
     }
 }
 @media (max-width: 420px) {
-    h1 {
-        font-size: 30px;
-    }
-    h4 {
-        font-size: 14px;
-    }
     .text-container, .text-container-teacher {
         width: 300px;
     }
-    .text-container p, .text-container-teacher p {
-        font-size: 12px;
-    }
+    
     .kid-img, .teacher-img, .research-img {
         width: 300px;
     }

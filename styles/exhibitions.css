@@ -186,9 +186,6 @@ h1 {
         width: 400px;
         height: auto;
     }
-    .exhibition-text p {
-        font-size: 16px;
-    }
 }
 
 @media (max-width: 420px) {
@@ -198,8 +195,6 @@ h1 {
     .exhibitions-img {
         width: 280px;
         height: 170px;
-        
-    
     }
     .exhibition-text {
         width: 280px;

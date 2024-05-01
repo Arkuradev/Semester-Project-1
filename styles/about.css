@@ -108,9 +108,6 @@ h4 {
         padding-top: 25px;
         text-align: center;
     }
-    h1 {
-        font-size: var(--h1-mobile);
-    }
     h2 {
         font-size: var(--h2-mobile);
     }

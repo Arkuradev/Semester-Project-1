@@ -31,7 +31,7 @@ p {
 
 @media (max-width: 650px) {
     h1 {
-        font-size: 30px;
+        font-size: var(--h1-tablet);
     }
     .text-container {
         width: 500px;
@@ -39,10 +39,7 @@ p {
 }
 @media (max-width: 500px) {
     h1 {
-        font-size: 20px;
-    }
-    p {
-        font-size: 12px;
+        font-size: var(--h1-mobile);
     }
     .text-container {
         width: 330px;

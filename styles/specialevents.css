@@ -97,9 +97,6 @@ h1 {
         width: 300px;
         height: auto;
     }
-    .text-container-events p {
-        font-size: var(--font-size-mobile);
-    }
     .aeronautics-img, .energetica-img, .nightmuseum-img {
         width: 300px;
         height: auto;

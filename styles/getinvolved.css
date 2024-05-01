@@ -85,9 +85,6 @@ p {
 }
 
 @media (max-width: 410px) {
-    h1 {
-        font-size: var(--h1-mobile);
-    }
     h3 {
         font-size: var(--h2-mobile);
     }

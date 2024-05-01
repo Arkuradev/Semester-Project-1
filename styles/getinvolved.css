@@ -5,9 +5,7 @@ h1 {
     font-size: 50px;
     margin-bottom: 50px;
 }
-p {
-    margin-bottom: 10px;
-}
+
 
 .getinvolved-img {
     width: 500px;
@@ -22,6 +20,9 @@ p {
     text-align: center;
     width: 550px;
     height: 240px;
+}
+.support p, .volunteer p, .internships p {
+    margin-bottom: 10px;
 }
 .support, .volunteer {
     margin-bottom: 20px;

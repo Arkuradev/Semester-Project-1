@@ -340,7 +340,13 @@ footer {
 
 .footer-visit h2, .footer-visit p {
     background-color: var(--footer-color);
-    color: #fff;
+    color: var(--bg-color);
+}
+.footer-visitlink {
+    color: var(--bg-color);
+}
+.footer-visitlink:hover{
+    color: var(--main-color);
 }
 
  @media (max-width: 740px) {

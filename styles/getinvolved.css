@@ -5,6 +5,9 @@ h1 {
     font-size: 50px;
     margin-bottom: 50px;
 }
+p {
+    margin-bottom: 10px;
+}
 
 .getinvolved-img {
     width: 500px;
@@ -54,10 +57,6 @@ h1 {
     .support-container, .volunteer-container, .internships-container {
         margin-right: 0;
     }
-
-    p {
-        font-size: 14px;
-    }
     .getinvolved-container {
         flex-direction: column;
     }
@@ -68,7 +67,7 @@ h1 {
 }
 @media (max-width: 650px) {
     h1 {
-        font-size: 40px;
+        font-size: var(--h1-tablet);
     }
     .support-container, .volunteer-container, .internships-container {
         justify-content: center;
@@ -76,10 +75,9 @@ h1 {
     }
     .support, .volunteer, .internships {
         width: 400px;
+        height: 300px;
     }
-    .volunteer {
-        height: 250px;
-    }
+    
     .getinvolved-img {
         width: 400px;
         height: auto;
@@ -88,19 +86,22 @@ h1 {
 
 @media (max-width: 410px) {
     h1 {
-        font-size: 30px;
-    }
-    p {
-        font-size: 12px;
+        font-size: var(--h1-mobile);
     }
     h3 {
-        font-size: 16px;
+        font-size: var(--h2-mobile);
     }
     h1, p, h3 {
         text-align: center;
     }
     .support, .volunteer, .internships {
         width: 300px;
+    }
+    .support {
+        height: 350px;
+    }
+    .volunteer {
+        height: 400px;
     }
     .getinvolved-img {
         width: 300px;

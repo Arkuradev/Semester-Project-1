@@ -148,7 +148,7 @@
     font-size: var(--h2);
 }
 .explore-text {
-    padding-top: 105px;
+    padding-top: 90px;
 }
 .kids-container:hover > .explore-text, .teacher-container:hover > .explore-text, .researcher-container:hover > .explore-text {
     display: block;

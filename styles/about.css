@@ -95,9 +95,7 @@ h4 {
 }
 
 @media (max-width: 550px) {
-    .text-container p, .visitus-text p {
-        font-size: var(--font-size-mobile);
-    }
+    
     .aboutus-teacher-img {
         width: 300px;
         height: auto;

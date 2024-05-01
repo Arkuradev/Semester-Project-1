@@ -169,8 +169,7 @@ h1 {
 
 @media (max-width: 650px) {
     h1 {
-        
-        font-size: 40px;
+        font-size: var(--h1-tablet);
         margin-top: 20px;
         margin-bottom: 20px;
     }
@@ -193,9 +192,6 @@ h1 {
 }
 
 @media (max-width: 420px) {
-    h1 {
-        font-size: 30px;
-    }
     .cosmology-container, .evolution-container, .biology-container, .robotics-container, .ecology-container {
         width: 280px;
     }
@@ -207,9 +203,6 @@ h1 {
     }
     .exhibition-text {
         width: 280px;
-    }
-    .exhibition-text p {
-        font-size: 12px;
     }
     .exhibition-text h4 {
         font-size: 16px;

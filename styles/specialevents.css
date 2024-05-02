@@ -39,7 +39,7 @@ h1 {
     text-align: center;
     padding: 10px;
 }
-.text-container-events h4 {
+.text-container-events h3 {
     margin-top: 20px;
     margin-bottom: 10px;
 }
@@ -78,9 +78,6 @@ h1 {
     }
     .text-container-events {
         width: 400px;
-    }
-    .text-container-events h2 {
-        font-size: var(--h2-mobile);
     }
     .aeronautics-img, .energetica-img, .nightmuseum-img {
         width: 400px;

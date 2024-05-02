@@ -42,11 +42,7 @@ a {
     color: var(--footer-color);
 }
 
-@media (max-width: 420px) {
-    .inpage-link, .bg-link {
-        font-size: 12px;
-    }
-}
+
 
 /* Global Image styling */
 

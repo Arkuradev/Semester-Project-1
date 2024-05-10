@@ -58,6 +58,7 @@ h4 {
 }
 .visitus-text {
     line-height: 1.5rem;
+    height: auto;
 }
 .visitus-text h4 {
     margin-top: 25px;

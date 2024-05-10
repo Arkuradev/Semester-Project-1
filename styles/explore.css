@@ -6,12 +6,6 @@ h1 {
     text-align: center;
 }
 
-.color-container-1 {
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-
-
 .kid-img {
     width: 1200px;
     height: auto;
@@ -24,11 +18,11 @@ h1 {
     width: 1200px;
     height: auto;
 }
-
 .explore {
     display: flex;
     flex-direction: column;
 }
+
 .text-container {
     background-color: var(--main-color);
     padding: 10px;
@@ -79,6 +73,8 @@ h1 {
     margin-bottom: 40px;
 }
 
+/* Adding some responsiveness to the page */
+
 @media (max-width: 1215px) {
     .text-container {
         width: 1000px;
@@ -92,7 +88,6 @@ h1 {
     .teacher-container {
         flex-direction: column;
     }
-
 }
 
 @media (max-width: 1020px) {
@@ -122,9 +117,23 @@ h1 {
     }
     .text-container, .text-container-teacher {
         width: 400px;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .text-container {
+        border-radius: 0 0 4px 4px;
+    }
+    .text-container-teacher {
+        border-radius: 4px 4px 0 0;
     }
     .kid-img, .teacher-img, .research-img {
         width: 400px;
+    }
+    .kid-img, .research-img {
+        border-radius: 4px 4px 0 0;
+    }
+    .teacher-img {
+        border-radius: 0 0 4px 4px;
     }
 }
 @media (max-width: 420px) {
@@ -135,5 +144,4 @@ h1 {
     .kid-img, .teacher-img, .research-img {
         width: 300px;
     }
-    
 }

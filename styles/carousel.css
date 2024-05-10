@@ -20,7 +20,7 @@ main {
     color: var(--main-color);
 }
 
-/* Background for links in carousel to make them more visually pleasing to the eye. */
+/* Background for links in bottom right of carousel to help with contrast issues */
 .textbg {
     background-color: black;
     width: 600px;
@@ -31,6 +31,7 @@ main {
     right: 0;
     border-radius: 70px 0 0 0;
 }
+/* Bigger div background to compensate for longer link name */
 .textbg2 {
     background-color: black;
     width: 650px;
@@ -41,8 +42,8 @@ main {
     right: 0;
     border-radius: 70px 0 0 0;
 }
-/* Carousel wrapper  */
 
+/* Carousel wrapper  */
 .carousel-wrapper {
     height: 600px;
     position: relative;
@@ -64,7 +65,7 @@ main {
     right: 0;
     padding: 25px 50px;
     opacity: 0;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.8s ease-in-out;
 }
 
 /* Styling of the Prev Arrow and Next Arrow. */
@@ -83,6 +84,7 @@ main {
     transform: translateY(-50%) rotate(135deg);
 
 }
+/* Styling of div element behind the next and previous arrow to add flavour to the next/prev buttons */
 .arrow-container-prev {
     background-color: var(--main-color);
     border-radius: 50%;
@@ -113,6 +115,7 @@ main {
     transform: translateY(-50%) rotate(-45deg);
 }
 
+/* Prevents page from refreshing on clicking previous/next button */
 [id^= "item"] {
     display: none;
 }

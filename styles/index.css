@@ -171,7 +171,7 @@
     }
 }
 @media (max-width: 378px) {
-    .kids-container, .teacher-container, .researcher-container {
+    .kids-container, .teacher-container, .researcher-container, .explore-container {
        width: 300px; 
     }
 }

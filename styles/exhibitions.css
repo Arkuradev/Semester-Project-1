@@ -113,7 +113,7 @@ h1 {
     margin-bottom: 10px;
     text-align: center;
     border-radius: 4px;;
-    padding: 10px;
+    padding: 7px;
     margin-top: 15px;
     
 }
@@ -141,9 +141,7 @@ h1 {
         flex-direction: column-reverse;
         align-items: center;
     }
-    .exhibition-text  {
-        height: auto;
-    }
+   
 
     /* When flex direction is column this will remove border radius from bottom part of images and from top part of blue 
     containers since margin is set to 0 between the 2 elements. */
@@ -186,6 +184,7 @@ h1 {
     }
     .exhibition-text {
         width: 400px;
+        height: auto;
     }
 }
 

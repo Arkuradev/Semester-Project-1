@@ -59,3 +59,10 @@ This site was built using:
 Link to our website:
 
 [Drammen Community Science Museum](https://arkuradev.github.io/Semester-Project-1/index.html)
+
+## Future Enhancements
+
+Some future enhancements that comes to mind for DCSM is to add functionality on the website with JavaScript.
+
+- Add functionality for ordering a guided tour for from 1 person to a large group of people.
+- A calendar showing upcoming events and a newsletter for information on upcoming events.
